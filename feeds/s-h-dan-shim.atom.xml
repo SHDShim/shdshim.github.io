@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets - S.-H. Dan Shim</title><link href="/" rel="alternate"></link><link href="/feeds/s-h-dan-shim.atom.xml" rel="self"></link><id>/</id><updated>2018-04-01T20:30:00-07:00</updated><entry><title>Latexdiff in Mac OSX</title><link href="/latexdiff-in-OSX.html" rel="alternate"></link><published>2018-04-01T20:30:00-07:00</published><updated>2018-04-01T20:30:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:None,2018-04-01:/latexdiff-in-OSX.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets - S.-H. Dan Shim</title><link href="https://shdshim.github.io/" rel="alternate"></link><link href="https://shdshim.github.io/feeds/s-h-dan-shim.atom.xml" rel="self"></link><id>https://shdshim.github.io/</id><updated>2018-04-01T20:30:00-07:00</updated><entry><title>Latexdiff in Mac OSX</title><link href="https://shdshim.github.io/latexdiff-in-OSX.html" rel="alternate"></link><published>2018-04-01T20:30:00-07:00</published><updated>2018-04-01T20:30:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-01:/latexdiff-in-OSX.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; The following procedure only worked with &lt;code&gt;Ubuntu&lt;/code&gt; and Mac OSX.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from MacTeX did not work with unknown reason.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; The following procedure only worked with &lt;code&gt;Ubuntu&lt;/code&gt; and &lt;code&gt;Mac OSX&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from &lt;code&gt;MacTeX&lt;/code&gt; did not work with unknown reason.&lt;/p&gt;
 &lt;p&gt;To make error free, make sure you do this:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as &lt;code&gt;*.aux&lt;/code&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
@@ -984,8 +984,8 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; The following procedure only worked with &lt;code&gt;Ubuntu&lt;/code&gt; and Mac OSX.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from MacTeX did not work with unknown reason.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; The following procedure only worked with &lt;code&gt;Ubuntu&lt;/code&gt; and &lt;code&gt;Mac OSX&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from &lt;code&gt;MacTeX&lt;/code&gt; did not work with unknown reason.&lt;/p&gt;
 &lt;p&gt;To make error free, make sure you do this:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as &lt;code&gt;*.aux&lt;/code&gt;, &lt;code&gt;*.blb&lt;/code&gt;, figure &lt;code&gt;pdf&lt;/code&gt;s, etc. If you mix old and new files in the same folder, you will get a lot of errors.&lt;/p&gt;
@@ -997,9 +997,9 @@ h6:hover .anchor-link {
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;--flatten&lt;/code&gt; : this option is needed when you have &lt;code&gt;\include&lt;/code&gt;, &lt;code&gt;\input&lt;/code&gt;, or &lt;code&gt;\includegraphics&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;--subtype=“SAFE”&lt;/code&gt; : this option does not seem to change anything&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;--disable-citation-markup&lt;/code&gt; : this option make no tracking for citation.  OK option to avoid confusion because latexdiff does not distinguish new and old citations.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;--disable-citation-markup&lt;/code&gt; : this option make no tracking for citation.  OK option to avoid confusion because &lt;code&gt;latexdiff&lt;/code&gt; does not distinguish new and old citations.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Then finally &lt;code&gt;pdflatex FeOxBr_diff.tex&lt;/code&gt;.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Then finally &lt;code&gt;pdflatex diff.tex&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Only problem here is that this procedure does not take care of the citation changes.  But so far this is the best.&lt;/p&gt;
@@ -1035,7 +1035,7 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="latex publication"></category></entry><entry><title>How to start a blog with Jupyter notebook</title><link href="/how-to-blog.html" rel="alternate"></link><published>2018-04-01T19:00:00-07:00</published><updated>2018-04-01T19:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:None,2018-04-01:/how-to-blog.html</id><content type="html">&lt;style type="text/css"&gt;/*!
+</content><category term="latex"></category><category term="publication"></category></entry><entry><title>How to start a blog with Jupyter notebook</title><link href="https://shdshim.github.io/how-to-blog.html" rel="alternate"></link><published>2018-04-01T19:00:00-07:00</published><updated>2018-04-01T19:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-01:/how-to-blog.html</id><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -2012,6 +2012,19 @@ h6:hover .anchor-link {
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;My blog was setup and started with the instruction in: &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In order to check local updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Switch to the main blog folder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run &lt;code&gt;pelican content&lt;/code&gt; to generate the HTML.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Switch to the &lt;code&gt;output&lt;/code&gt; directory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run &lt;code&gt;python -m pelican.server&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Visit &lt;code&gt;localhost:8000&lt;/code&gt; in a browser to preview.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2044,4 +2057,4 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="blog jupyter url link"></category></entry></feed>
+</content><category term="blog"></category><category term="jupyter"></category><category term="url"></category></entry></feed>
