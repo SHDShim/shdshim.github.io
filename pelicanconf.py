@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'S.-H. Dan Shim'
 SITENAME = 'Coding Planets'
-SITEURL = 'http://shdshim.github.io'
+SITEURL = 'https://shdshim.github.io'
 
 PATH = 'content'
 

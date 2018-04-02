@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets - Jupyter notebook</title><link href="http://shdshim.github.io/" rel="alternate"></link><link href="http://shdshim.github.io/feeds/jupyter-notebook.atom.xml" rel="self"></link><id>http://shdshim.github.io/</id><updated>2018-04-01T19:00:00-07:00</updated><entry><title>How to start a blog with Jupyter notebook</title><link href="http://shdshim.github.io/how-to-blog.html" rel="alternate"></link><published>2018-04-01T19:00:00-07:00</published><updated>2018-04-01T19:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-01:/how-to-blog.html</id><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets - Jupyter notebook</title><link href="/" rel="alternate"></link><link href="/feeds/jupyter-notebook.atom.xml" rel="self"></link><id>/</id><updated>2018-04-01T19:00:00-07:00</updated><entry><title>How to start a blog with Jupyter notebook</title><link href="/how-to-blog.html" rel="alternate"></link><published>2018-04-01T19:00:00-07:00</published><updated>2018-04-01T19:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:None,2018-04-01:/how-to-blog.html</id><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
