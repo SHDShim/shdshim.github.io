@@ -36,4 +36,4 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
-THEME = 'pelican-themes/bootlex'
+THEME = './pelican-themes/bootlex'
