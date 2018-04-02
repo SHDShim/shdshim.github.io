@@ -1,9 +1,9 @@
 
 # coding: utf-8
 
-# __(Warning)__ The following procedure only worked with `Ubuntu` and Mac OSX.  
+# __(Warning)__ The following procedure only worked with `Ubuntu` and `Mac OSX`.  
 # 
-# __(Warning)__ `Latexdiff` from MacTeX did not work with unknown reason.
+# __(Warning)__ `Latexdiff` from `MacTeX` did not work with unknown reason.
 # 
 # To make error free, make sure you do this:
 # 
@@ -21,8 +21,8 @@
 # 
 #   `--subtype=“SAFE”` : this option does not seem to change anything
 # 
-#   `--disable-citation-markup` : this option make no tracking for citation.  OK option to avoid confusion because latexdiff does not distinguish new and old citations.
+#   `--disable-citation-markup` : this option make no tracking for citation.  OK option to avoid confusion because `latexdiff` does not distinguish new and old citations.
 # 
-# 4. Then finally `pdflatex FeOxBr_diff.tex`.
+# 4. Then finally `pdflatex diff.tex`.
 # 
 # Only problem here is that this procedure does not take care of the citation changes.  But so far this is the best.

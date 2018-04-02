@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Latexdiff in Mac OSX</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>How to start a blog with Jupyter notebook</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11775,25 +11775,20 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>(Warning)</strong> The following procedure only worked with <code>Ubuntu</code> and <code>Mac OSX</code>.</p>
-<p><strong>(Warning)</strong> <code>Latexdiff</code> from <code>MacTeX</code> did not work with unknown reason.</p>
-<p>To make error free, make sure you do this:</p>
-<ol>
-<li><p>Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as <code>*.aux</code>, <code>*.blb</code>, figure <code>pdf</code>s, etc. If you mix old and new files in the same folder, you will get a lot of errors.</p>
+<p>My blog was setup and started with the instruction in: <a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/">https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/</a></p>
+<p>In order to check local updates:</p>
+<ul>
+<li><p>Switch to the main blog folder.</p>
 </li>
-<li><p>It is not absolutely necessary, but you may want to separately compile them to pdf's.</p>
+<li><p>Run <code>pelican content</code> to generate the HTML.</p>
 </li>
-<li><p>You can now execute <code>latexdiff</code> through one of the followings.</p>
-<div class="highlight"><pre><span></span>latexdiff --flatten --disable-citation-markup  ./old/original.tex ./new/revised.tex &gt; diff.tex
-</pre></div>
-<p><code>--flatten</code> : this option is needed when you have <code>\include</code>, <code>\input</code>, or <code>\includegraphics</code>.</p>
-<p><code>--subtype=“SAFE”</code> : this option does not seem to change anything</p>
-<p><code>--disable-citation-markup</code> : this option make no tracking for citation.  OK option to avoid confusion because <code>latexdiff</code> does not distinguish new and old citations.</p>
+<li><p>Switch to the <code>output</code> directory.</p>
 </li>
-<li><p>Then finally <code>pdflatex diff.tex</code>.</p>
+<li><p>Run <code>python -m pelican.server</code>.</p>
 </li>
-</ol>
-<p>Only problem here is that this procedure does not take care of the citation changes.  But so far this is the best.</p>
+<li><p>Visit <code>localhost:8000</code> in a browser to preview.</p>
+</li>
+</ul>
 
 </div>
 </div>
