@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Coding Planets - S.-H. Dan Shim</title><link>/</link><description></description><lastBuildDate>Sun, 01 Apr 2018 20:30:00 -0700</lastBuildDate><item><title>Latexdiff in Mac OSX</title><link>/latexdiff-in-OSX.html</link><description>
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; The following procedure only worked with &lt;code&gt;Ubuntu&lt;/code&gt; and Mac OSX.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from MacTeX did not work with unknown reason.&lt;/p&gt;
+&lt;p&gt;To make error free, make sure you do this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as &lt;code&gt;*.aux&lt;/code&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 20:30:00 -0700</pubDate><guid isPermaLink="false">tag:None,2018-04-01:/latexdiff-in-OSX.html</guid><category>latex publication</category></item><item><title>How to start a blog with Jupyter notebook</title><link>/how-to-blog.html</link><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:None,2018-04-01:/how-to-blog.html</guid><category>blog jupyter url link</category></item></channel></rss>
