@@ -20,10 +20,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Research homepage', 'https://sites.google.com/site/shdshim/'),
+         ('My github repos', 'https://github.com/shdshim'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -38,3 +36,4 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
+THEME =  'notmyidea'
