@@ -8,4 +8,24 @@
 &lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from &lt;code&gt;MacTeX&lt;/code&gt; did not work with unknown reason.&lt;/p&gt;
 &lt;p&gt;To make error free, make sure you do this:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as &lt;code&gt;*.aux&lt;/code&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 20:30:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-01:/latexdiff-in-OSX.html</guid><category>latex</category><category>publication</category></item><item><title>How to start a blog with Jupyter notebook</title><link>https://shdshim.github.io/how-to-blog.html</link><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-01:/how-to-blog.html</guid><category>blog</category><category>jupyter</category><category>url</category></item></channel></rss>
+&lt;li&gt;&lt;p&gt;Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as &lt;code&gt;*.aux&lt;/code&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 20:30:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-01:/latexdiff-in-OSX.html</guid><category>latex</category><category>publication</category></item><item><title>How to start a blog with Jupyter notebook</title><link>https://shdshim.github.io/how-to-blog.html</link><description>
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;My blog was setup and started with the instruction in: &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Normal workflow for a blog posting.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Switch to the main blog folder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run &lt;code&gt;pelican content&lt;/code&gt; to generate the HTML.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Switch to the &lt;code&gt;output&lt;/code&gt; directory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run &lt;code&gt;python -m pelican.server&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Visit &lt;code&gt;localhost:8000&lt;/code&gt; in a browser to preview.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Move back to the main blog folder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run &lt;code&gt;pelican content -s pelicanconf.py&lt;/code&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-01:/how-to-blog.html</guid><category>blog</category><category>jupyter</category><category>url</category></item></channel></rss>
