@@ -1,38 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>Coding Planets - posts</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Coding Planets Atom Feed" />
-
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Coding Planets </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="/category/posts.html">posts</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/how-to-blog.html">How to start a blog with Jupyter notebook</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2018-04-01T19:00:00-07:00">
-                Published: Sun 01 April 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/s-h-dan-shim.html">S.-H. Dan Shim</a>
-        </address>
-<p>In <a href="/category/posts.html">posts</a>.</p>
-<p>tags: <a href="/tag/blog-jupyter-url-link.html">blog jupyter url link</a> </p>
-</footer><!-- /.post-info --><style type="text/css">/*!
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets - Latex</title><link href="/" rel="alternate"></link><link href="/feeds/latex.atom.xml" rel="self"></link><id>/</id><updated>2018-04-01T20:30:00-07:00</updated><entry><title>Latexdiff in Mac OSX</title><link href="/latexdiff-in-OSX.html" rel="alternate"></link><published>2018-04-01T20:30:00-07:00</published><updated>2018-04-01T20:30:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:None,2018-04-01:/latexdiff-in-OSX.html</id><summary type="html">
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; The following procedure only worked with &lt;code&gt;Ubuntu&lt;/code&gt; and Mac OSX.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from MacTeX did not work with unknown reason.&lt;/p&gt;
+&lt;p&gt;To make error free, make sure you do this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as &lt;code&gt;*.aux&lt;/code&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -259,7 +235,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -312,19 +288,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -370,7 +346,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -832,7 +808,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -897,8 +873,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -966,8 +942,8 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -1003,17 +979,35 @@ h6:hover .anchor-link {
 .ansi-white-intense-bg { background-color: #A1A6B2; }
 
 .ansi-bold { font-weight: bold; }
-</style>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>My blog was setup and started with the instruction in: <a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/">https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/</a></p>
-</div>
-</div>
-</div>
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; The following procedure only worked with &lt;code&gt;Ubuntu&lt;/code&gt; and Mac OSX.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Warning)&lt;/strong&gt; &lt;code&gt;Latexdiff&lt;/code&gt; from MacTeX did not work with unknown reason.&lt;/p&gt;
+&lt;p&gt;To make error free, make sure you do this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Your old and new files must exist in separate folders.  Those separate folders must have all the necessary files, such as &lt;code&gt;*.aux&lt;/code&gt;, &lt;code&gt;*.blb&lt;/code&gt;, figure &lt;code&gt;pdf&lt;/code&gt;s, etc. If you mix old and new files in the same folder, you will get a lot of errors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It is not absolutely necessary, but you may want to separately compile them to pdf's.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can now execute &lt;code&gt;latexdiff&lt;/code&gt; through one of the followings.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;latexdiff --flatten --disable-citation-markup  ./old/original.tex ./new/revised.tex &amp;gt; diff.tex
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;--flatten&lt;/code&gt; : this option is needed when you have &lt;code&gt;\include&lt;/code&gt;, &lt;code&gt;\input&lt;/code&gt;, or &lt;code&gt;\includegraphics&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;--subtype=“SAFE”&lt;/code&gt; : this option does not seem to change anything&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;--disable-citation-markup&lt;/code&gt; : this option make no tracking for citation.  OK option to avoid confusion because latexdiff does not distinguish new and old citations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Then finally &lt;code&gt;pdflatex FeOxBr_diff.tex&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Only problem here is that this procedure does not take care of the citation changes.  But so far this is the best.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -1040,35 +1034,5 @@ h6:hover .anchor-link {
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="https://sites.google.com/site/shdshim/">Research homepage</a></li>
-                            <li><a href="https://github.com/shdshim">My github repos</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
-</body>
-</html>
+&lt;/script&gt;
+</content><category term="latex publication"></category></entry></feed>

@@ -13,19 +13,19 @@ TIMEZONE = 'America/Phoenix'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+#FEED_ALL_ATOM = None
+#CATEGORY_FEED_ATOM = None
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+#AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Research homepage', 'https://sites.google.com/site/shdshim/'),
-         ('My github repos', 'https://github.com/shdshim'),)
+LINKS = (('Research', 'https://sites.google.com/site/shdshim/'),
+         ('Codes', 'https://github.com/shdshim'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -36,4 +36,4 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
-THEME =  'notmyidea'
+THEME = 'pelican-themes/bootlex'
