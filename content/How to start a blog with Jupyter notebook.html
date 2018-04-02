@@ -11776,7 +11776,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>My blog was setup and started with the instruction in: <a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/">https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/</a></p>
-<p>In order to check local updates:</p>
+<p>Normal workflow for a blog posting.</p>
 <ul>
 <li><p>Switch to the main blog folder.</p>
 </li>
@@ -11787,6 +11787,18 @@ div#notebook {
 <li><p>Run <code>python -m pelican.server</code>.</p>
 </li>
 <li><p>Visit <code>localhost:8000</code> in a browser to preview.</p>
+</li>
+<li><p>Move back to the main blog folder.</p>
+</li>
+<li><p>Run <code>pelican content -s pelicanconf.py</code>.</p>
+</li>
+<li><p>Run <code>ghp-import output -b master</code> to import everything in the output folder to the master branch.</p>
+</li>
+<li><p>Run <code>git add .</code>.</p>
+</li>
+<li><p>Run <code>git commit -m</code>.</p>
+</li>
+<li><p>Run <code>git push origin master</code> to push the content to <code>Github</code>.</p>
 </li>
 </ul>
 

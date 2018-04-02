@@ -36,4 +36,5 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
+# elegant is good
 THEME = './pelican-themes/elegant'
