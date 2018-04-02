@@ -38,3 +38,5 @@ PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
 # elegant is good
 THEME = './pelican-themes/elegant'
+SITESUBTITLE = 'coding mineralogist and dad'
+GITHUB_URL = 'https://github.com/shdshim'
