@@ -4,7 +4,6 @@ Date: 2018-04-01 19:00
 Category: Jupyter notebook
 Tags: blog, jupyter, url 
 author: S.-H. Dan Shim
-Summary: Post of an instruction for setting up a blog based on Jupyter notebook
 
 My blog was setup and started with the instruction in: https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/
 
