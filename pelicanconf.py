@@ -42,14 +42,7 @@ SITESUBTITLE = 'coding mineralogist and dad'
 GITHUB_URL = 'https://github.com/shdshim'
 LANDING_PAGE_ABOUT = {
 	'title': 'Coding - from research to teaching', 
-	'details': ('My name is Dan Shim. ',  
-	'I am a professor at the School of Earth and Space exploration, Arizona State University. ', 
-	'I study minerals and their physical properties to understand the interiors of Earth, ',
-	'solar-system planets, and extrasolar planets. ',
-	'I develop codes to conduct scientific research. ',
-	'I am also interested in using coding for my teaching at colleage level and ',
-	'having fun with my kids. ', 
-	'I hope to be able to find ways to improve learning experiences through coding. ') }
+	'details': 'My name is Dan Shim. I am a professor at the School of Earth and Space exploration, Arizona State University. I study minerals and their physical properties to understand the interiors of Earth, solar-system planets, and extrasolar planets. I develop codes to conduct scientific research. I am also interested in using coding for my teaching at colleage level and having fun with my kids. I hope to be able to find ways to improve learning experiences through coding.' }
 PROJECTS = [{
     'name': 'Pytheos',
     'url': 'https://github.com/shdshim/pytheos',
