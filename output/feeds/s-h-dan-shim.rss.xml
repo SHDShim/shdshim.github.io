@@ -4,8 +4,10 @@
 &lt;a href="https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/"&gt;https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I ordered this book but unsure yet it will be good.&lt;br&gt;
 &lt;a href="https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python"&gt;https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Nice video tutorial which you …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Mon, 02 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-02:/minecraft-pi-tutorials.html</guid><category>dawn</category><category>jake</category><category>raspberry pi</category><category>minecraft pi</category></item><item><title>How to start a blog with Jupyter notebook</title><link>https://shdshim.github.io/how-to-blog.html</link><description>&lt;p&gt;My blog was setup and started with the instruction in: &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Normal workflow for a blog posting.&lt;/p&gt;
+&lt;p&gt;Nice video tutorial which you …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Mon, 02 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-02:/minecraft-pi-tutorials.html</guid><category>dawn</category><category>jake</category><category>raspberry pi</category><category>minecraft pi</category></item><item><title>How to start a blog with Jupyter notebook</title><link>https://shdshim.github.io/how-to-blog.html</link><description>&lt;h2&gt;How to setup a blog with pelican&lt;/h2&gt;
+&lt;p&gt;My blog was setup and started with the instruction in: 
+&lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Normal workflow for a blog posting:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Switch to the main blog folder.&lt;/p&gt;
@@ -17,7 +19,4 @@
 &lt;p&gt;Switch to the &lt;code&gt;output&lt;/code&gt; directory.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Run &lt;code&gt;python -m pelican.server&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visit &lt;code&gt;localhost:8000&lt;/code&gt; in a …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-01:/how-to-blog.html</guid><category>blog</category><category>jupyter</category><category>url</category></item></channel></rss>
+&lt;p&gt;Run &lt;code&gt;python -m …&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Sun, 01 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-01:/how-to-blog.html</guid><category>blog</category><category>jupyter</category><category>url</category></item></channel></rss>
