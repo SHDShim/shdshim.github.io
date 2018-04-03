@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Coding Planets - S.-H. Dan Shim</title><link>https://shdshim.github.io/</link><description>coding mineralogist and dad</description><lastBuildDate>Mon, 02 Apr 2018 19:00:00 -0700</lastBuildDate><item><title>Links for minecraft pi</title><link>https://shdshim.github.io/minecraft-pi-tutorials.html</link><description>&lt;h2&gt;Some helpful minecraft pi tutorials for beginners&lt;/h2&gt;
 &lt;p&gt;Tutorial for setup in raspberry pi.&lt;br&gt;
-https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/&lt;/p&gt;
+&lt;a href="https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/"&gt;https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I ordered this book but unsure yet it will be good.&lt;br&gt;
-https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python&lt;/p&gt;
+&lt;a href="https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python"&gt;https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nice video tutorial which you …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S.-H. Dan Shim</dc:creator><pubDate>Mon, 02 Apr 2018 19:00:00 -0700</pubDate><guid isPermaLink="false">tag:shdshim.github.io,2018-04-02:/minecraft-pi-tutorials.html</guid><category>dawn</category><category>jake</category><category>raspberry pi</category><category>minecraft pi</category></item><item><title>How to start a blog with Jupyter notebook</title><link>https://shdshim.github.io/how-to-blog.html</link><description>&lt;p&gt;My blog was setup and started with the instruction in: https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&lt;/p&gt;
 &lt;p&gt;Normal workflow for a blog posting.&lt;/p&gt;
 &lt;ul&gt;

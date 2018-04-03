@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets</title><link href="https://shdshim.github.io/" rel="alternate"></link><link href="https://shdshim.github.io/feeds/all.atom.xml" rel="self"></link><id>https://shdshim.github.io/</id><updated>2018-04-02T19:00:00-07:00</updated><entry><title>Links for minecraft pi</title><link href="https://shdshim.github.io/minecraft-pi-tutorials.html" rel="alternate"></link><published>2018-04-02T19:00:00-07:00</published><updated>2018-04-02T19:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-02:/minecraft-pi-tutorials.html</id><summary type="html">&lt;h2&gt;Some helpful minecraft pi tutorials for beginners&lt;/h2&gt;
 &lt;p&gt;Tutorial for setup in raspberry pi.&lt;br&gt;
-https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/&lt;/p&gt;
+&lt;a href="https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/"&gt;https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I ordered this book but unsure yet it will be good.&lt;br&gt;
-https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python&lt;/p&gt;
+&lt;a href="https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python"&gt;https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nice video tutorial which you …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Some helpful minecraft pi tutorials for beginners&lt;/h2&gt;
 &lt;p&gt;Tutorial for setup in raspberry pi.&lt;br&gt;
-https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/&lt;/p&gt;
+&lt;a href="https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/"&gt;https://mcpipy.wordpress.com/2013/02/22/getting-minecraft-pi-edition-running/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I ordered this book but unsure yet it will be good.&lt;br&gt;
-https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python&lt;/p&gt;
+&lt;a href="https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python"&gt;https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&amp;amp;field-keywords=minecraft+python&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nice video tutorial which you can watch together with kids.&lt;br&gt;
-https://youtu.be/oR4UGeUgJMg&lt;/p&gt;
+&lt;a href="https://youtu.be/oR4UGeUgJMg"&gt;https://youtu.be/oR4UGeUgJMg&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Minecraft web tutorial step-by-step, written tutorial.&lt;br&gt;
-https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi/5&lt;/p&gt;
+&lt;a href="https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi/5"&gt;https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi/5&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;More for instructors.&lt;br&gt;
-https://youtu.be/WwKkA9YV1K8&lt;/p&gt;</content><category term="dawn"></category><category term="jake"></category><category term="raspberry pi"></category><category term="minecraft pi"></category></entry><entry><title>How to start a blog with Jupyter notebook</title><link href="https://shdshim.github.io/how-to-blog.html" rel="alternate"></link><published>2018-04-01T19:00:00-07:00</published><updated>2018-04-01T19:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-01:/how-to-blog.html</id><summary type="html">&lt;p&gt;My blog was setup and started with the instruction in: https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&lt;/p&gt;
+&lt;a href="https://youtu.be/WwKkA9YV1K8"&gt;https://youtu.be/WwKkA9YV1K8&lt;/a&gt;&lt;/p&gt;</content><category term="dawn"></category><category term="jake"></category><category term="raspberry pi"></category><category term="minecraft pi"></category></entry><entry><title>How to start a blog with Jupyter notebook</title><link href="https://shdshim.github.io/how-to-blog.html" rel="alternate"></link><published>2018-04-01T19:00:00-07:00</published><updated>2018-04-01T19:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-01:/how-to-blog.html</id><summary type="html">&lt;p&gt;My blog was setup and started with the instruction in: https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/&lt;/p&gt;
 &lt;p&gt;Normal workflow for a blog posting.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
