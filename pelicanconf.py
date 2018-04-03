@@ -40,3 +40,6 @@ PLUGINS = ['ipynb.markup']
 THEME = './pelican-themes/elegant'
 SITESUBTITLE = 'coding mineralogist and dad'
 GITHUB_URL = 'https://github.com/shdshim'
+LANDING_PAGE_ABOUT = {'title': 'I teach coding to my geology students and my kids', 
+						'details': 'My name is Dan Shim.  I am a professor at the School of Earth and Space exploration, Arizona State University.  I study minerals to understand Earth and planets.  I develop codes to conduct scientific research.  However, I also teach coding to geology major students and to my own kids.  I hope to be able to find ways to improve learning experiences through coding.  ' }
+SITE_LICENSE = ''
