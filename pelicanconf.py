@@ -49,5 +49,8 @@ PROJECTS = [{
     'description': 'A python module for equation of state'},
     {'name': 'Peakpo',
     'url': 'https://github.com/shdshim/peakpo',
-    'description': 'X-ray diffraction peak analysis'}, ]
+    'description': 'X-ray diffraction peak analysis'}, 
+    {'name': 'Scientific research',
+    'url': 'https://sites.google.com/site/shdshim/',
+    'description': 'Mineral physics, Geophysics, Planetary Science'}]
 SITE_LICENSE = ' '
