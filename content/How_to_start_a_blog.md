@@ -5,7 +5,7 @@ Category: Jupyter notebook
 Tags: blog, jupyter, url 
 author: S.-H. Dan Shim
 
-My blog was setup and started with the instruction in: https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/
+My blog was setup and started with the instruction in: <https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/>
 
 
 Normal workflow for a blog posting.
