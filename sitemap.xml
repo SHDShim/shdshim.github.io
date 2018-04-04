@@ -5,146 +5,146 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shdshim.github.io/</loc>
-<lastmod>2018-04-03T06:33:07-00:00</lastmod>
+<lastmod>2018-04-03T18:21:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shdshim.github.io/archives.html</loc>
-<lastmod>2018-04-03T06:33:07-00:00</lastmod>
+<lastmod>2018-04-03T18:21:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shdshim.github.io/tags.html</loc>
-<lastmod>2018-04-03T06:33:07-00:00</lastmod>
+<lastmod>2018-04-03T18:21:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shdshim.github.io/categories.html</loc>
-<lastmod>2018-04-03T06:33:07-00:00</lastmod>
+<lastmod>2018-04-03T18:21:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/github-scientists.html</loc>
+<loc>https://shdshim.github.io/github/github-scientists.html</loc>
 <lastmod>2018-04-02T22:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/minecraft-pi-tutorials.html</loc>
+<loc>https://shdshim.github.io/raspberry-pi/minecraft-pi-tutorials.html</loc>
 <lastmod>2018-04-02T19:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/how-to-blog.html</loc>
+<loc>https://shdshim.github.io/jupyter-notebook/how-to-blog.html</loc>
 <lastmod>2018-04-01T19:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/category/github.html</loc>
+<loc>https://shdshim.github.io/categories/github.html</loc>
 <lastmod>2018-04-02T22:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/category/jupyter-notebook.html</loc>
+<loc>https://shdshim.github.io/categories/jupyter-notebook.html</loc>
 <lastmod>2018-04-01T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/category/raspberry-pi.html</loc>
+<loc>https://shdshim.github.io/categories/raspberry-pi.html</loc>
 <lastmod>2018-04-02T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/github.html</loc>
+<loc>https://shdshim.github.io/tags/github.html</loc>
 <lastmod>2018-04-02T22:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/git.html</loc>
+<loc>https://shdshim.github.io/tags/git.html</loc>
 <lastmod>2018-04-02T22:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/doi.html</loc>
+<loc>https://shdshim.github.io/tags/doi.html</loc>
 <lastmod>2018-04-02T22:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/science.html</loc>
+<loc>https://shdshim.github.io/tags/science.html</loc>
 <lastmod>2018-04-02T22:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/dawn.html</loc>
+<loc>https://shdshim.github.io/tags/dawn.html</loc>
 <lastmod>2018-04-02T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/jake.html</loc>
+<loc>https://shdshim.github.io/tags/jake.html</loc>
 <lastmod>2018-04-02T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/raspberry-pi.html</loc>
+<loc>https://shdshim.github.io/tags/raspberry-pi.html</loc>
 <lastmod>2018-04-02T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/minecraft-pi.html</loc>
+<loc>https://shdshim.github.io/tags/minecraft-pi.html</loc>
 <lastmod>2018-04-02T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/blog.html</loc>
+<loc>https://shdshim.github.io/tags/blog.html</loc>
 <lastmod>2018-04-01T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/jupyter.html</loc>
+<loc>https://shdshim.github.io/tags/jupyter.html</loc>
 <lastmod>2018-04-01T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shdshim.github.io/tag/url.html</loc>
+<loc>https://shdshim.github.io/tags/url.html</loc>
 <lastmod>2018-04-01T19:00:00-07:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
