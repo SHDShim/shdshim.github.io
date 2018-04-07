@@ -38,10 +38,10 @@
 &lt;p&gt;Move back to the main blog folder.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Run &lt;code&gt;pelican -v content/&lt;/code&gt; for search&lt;/p&gt;
+&lt;p&gt;Run &lt;code&gt;pelican content -s pelicanconf.py&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Run &lt;code&gt;pelican content -s pelicanconf.py&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Run &lt;code&gt;pelican -v content/&lt;/code&gt; for search&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Run &lt;code&gt;ghp-import output -b master&lt;/code&gt; to import everything in the output folder to the master branch.&lt;/p&gt;
@@ -55,4 +55,5 @@
 &lt;li&gt;
 &lt;p&gt;Run &lt;code&gt;git push origin master&lt;/code&gt; to push the content to &lt;code&gt;Github&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content><category term="blog"></category><category term="jupyter"></category><category term="url"></category></entry></feed>
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;(Note)&lt;/strong&gt; The &lt;code&gt;sitemap&lt;/code&gt; search under &lt;code&gt;elegant&lt;/code&gt; is shown as unsafe script in browser and therefore blocked.  To enable, you need to allow the script to run.&lt;/p&gt;</content><category term="blog"></category><category term="jupyter"></category><category term="url"></category></entry></feed>

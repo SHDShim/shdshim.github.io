@@ -93,10 +93,10 @@
 <p>Move back to the main blog folder.</p>
 </li>
 <li>
-<p>Run <code>pelican -v content/</code> for search</p>
+<p>Run <code>pelican content -s pelicanconf.py</code>.</p>
 </li>
 <li>
-<p>Run <code>pelican content -s pelicanconf.py</code>.</p>
+<p>Run <code>pelican -v content/</code> for search</p>
 </li>
 <li>
 <p>Run <code>ghp-import output -b master</code> to import everything in the output folder to the master branch.</p>
@@ -111,6 +111,7 @@
 <p>Run <code>git push origin master</code> to push the content to <code>Github</code>.</p>
 </li>
 </ul>
+<p><strong>(Note)</strong> The <code>sitemap</code> search under <code>elegant</code> is shown as unsafe script in browser and therefore blocked.  To enable, you need to allow the script to run.</p>
             
             
             <hr/>
