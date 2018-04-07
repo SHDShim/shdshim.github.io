@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets - raspberry pi</title><link href="https://shdshim.github.io/" rel="alternate"></link><link href="https://shdshim.github.io/feeds/raspberry-pi.atom.xml" rel="self"></link><id>https://shdshim.github.io/</id><updated>2018-04-07T08:00:00-07:00</updated><entry><title>How to pair apple input devices</title><link href="https://shdshim.github.io/raspberry-pi/apple-input-devices.html" rel="alternate"></link><published>2018-04-07T08:00:00-07:00</published><updated>2018-04-07T08:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-07:/raspberry-pi/apple-input-devices.html</id><summary type="html">&lt;h2&gt;How to pair bluetooth Apple keyboard and mouse with raspberry pi&lt;/h2&gt;
 &lt;p&gt;I found that the on-board wifi causes issues with Apple wireless keyboard and mouse.  Only way to make them work with raspberry pi 3 is to turn it off.&lt;/p&gt;
-&lt;p&gt;I found the following tip from: &lt;a href="https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3"&gt;https://raspberrypi.stackexchange.com …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;How to pair bluetooth Apple keyboard and mouse with raspberry pi&lt;/h2&gt;
+&lt;p&gt;I found the following tip from: &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3"&gt;https://raspberrypi.stackexchange.com …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;How to pair bluetooth Apple keyboard and mouse with raspberry pi&lt;/h2&gt;
 &lt;p&gt;I found that the on-board wifi causes issues with Apple wireless keyboard and mouse.  Only way to make them work with raspberry pi 3 is to turn it off.&lt;/p&gt;
-&lt;p&gt;I found the following tip from: &lt;a href="https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3"&gt;https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I found the following tip from: &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3"&gt;https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I turn off on-board wifi by the following command&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo iwconfig wlan0 txpower off
 &lt;/pre&gt;&lt;/div&gt;

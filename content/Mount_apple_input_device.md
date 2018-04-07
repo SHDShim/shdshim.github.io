@@ -9,7 +9,9 @@ author: S.-H. Dan Shim
 
 I found that the on-board wifi causes issues with Apple wireless keyboard and mouse.  Only way to make them work with raspberry pi 3 is to turn it off.
 
-I found the following tip from: <https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3>
+I found the following tip from: 
+
+<https://raspberrypi.stackexchange.com/questions/43720/disable-wifi-wlan0-on-pi-3>
 
 I turn off on-board wifi by the following command
 

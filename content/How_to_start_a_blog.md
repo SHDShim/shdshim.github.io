@@ -1,4 +1,4 @@
-Title: How to start a blog with Jupyter notebook
+Title: How to start/update this blog
 Slug: how-to-blog
 Date: 2018-04-01 19:00
 Category: Jupyter notebook
@@ -24,6 +24,8 @@ Normal workflow for a blog posting:
 - Visit `localhost:8000` in a browser to preview.
 
 - Move back to the main blog folder.
+
+- Run `pelican -v content/` for search
 
 - Run `pelican content -s pelicanconf.py`.
 
