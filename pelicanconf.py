@@ -68,3 +68,17 @@ CATEGORIES_SAVE_AS = 'categories.html'
 TAG_URL = 'tags/{slug}.html'
 TAG_SAVE_AS = TAG_URL
 TAGS_SAVE_AS = 'tags.html'
+
+SITEMAP = {                                                                                         
+	'format': 'xml',                                                                                
+	'priorities': {                                                                                 
+    	'articles': 1,                                                                              
+        'indexes': 0.7,                                                                             
+        'pages': 0.5                                                                                
+     	},                                                                                              
+	'changefreqs': {                                                                                
+        'articles': 'always',                                                                       
+        'indexes': 'always',                                                                        
+        'pages': 'always'                                                                           
+		}                                                                                               
+} 
