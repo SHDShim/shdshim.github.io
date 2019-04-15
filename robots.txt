@@ -1,0 +1,4 @@
+Sitemap: http://shdshim.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: shdshim.github.io
