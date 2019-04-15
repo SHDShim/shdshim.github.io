@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Coding Planets - blog</title><link href="https://shdshim.github.io/" rel="alternate"></link><link href="https://shdshim.github.io/feeds/blog.atom.xml" rel="self"></link><id>https://shdshim.github.io/</id><updated>2018-04-02T21:00:00-07:00</updated><entry><title>Pelican theme Elegant</title><link href="https://shdshim.github.io/blog/pelican-theme.html" rel="alternate"></link><published>2018-04-02T21:00:00-07:00</published><updated>2018-04-02T21:00:00-07:00</updated><author><name>S.-H. Dan Shim</name></author><id>tag:shdshim.github.io,2018-04-02:/blog/pelican-theme.html</id><summary type="html">&lt;h2&gt;Pelican theme&lt;/h2&gt;
-&lt;p&gt;I use elegant for this blog.  &lt;/p&gt;
-&lt;p&gt;More instruction can be found from: &lt;/p&gt;
-&lt;p&gt;&lt;a href="http://oncrashreboot.com/elegant-best-pelican-theme-features"&gt;http://oncrashreboot.com/elegant-best-pelican-theme-features&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Pelican theme&lt;/h2&gt;
-&lt;p&gt;I use elegant for this blog.  &lt;/p&gt;
-&lt;p&gt;More instruction can be found from: &lt;/p&gt;
-&lt;p&gt;&lt;a href="http://oncrashreboot.com/elegant-best-pelican-theme-features"&gt;http://oncrashreboot.com/elegant-best-pelican-theme-features&lt;/a&gt;.&lt;/p&gt;</content><category term="pelican"></category><category term="python"></category><category term="blog"></category><category term="elegant theme"></category></entry></feed>
