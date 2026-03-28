@@ -362,6 +362,89 @@ main {
   gap: 18px;
 }
 
+.home-hero {
+  position: relative;
+  min-height: 72vh;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.home-hero-image {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(5, 9, 12, 0.22), rgba(5, 9, 12, 0.52)),
+    url("assets/images/home-hero.jpg") center center / cover no-repeat;
+}
+
+.home-hero-overlay {
+  position: relative;
+  z-index: 1;
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: clamp(28px, 6vw, 64px);
+}
+
+.home-hero-overlay h1 {
+  margin: 10px 0 8px;
+  max-width: none;
+  font-size: clamp(2.9rem, 6vw, 5rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.home-subtitle {
+  margin: 0;
+  max-width: 32ch;
+  color: rgba(242, 245, 247, 0.92);
+  font-size: clamp(1rem, 2vw, 1.28rem);
+  line-height: 1.45;
+}
+
+.home-intro {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.home-copy {
+  max-width: 72ch;
+}
+
+.home-copy p {
+  margin: 0 0 18px;
+  color: var(--muted);
+  line-height: 1.82;
+}
+
+.home-links {
+  min-width: 180px;
+  display: grid;
+  gap: 12px;
+}
+
+.home-links a {
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-strong);
+}
+
+.home-links a:hover,
+.home-links a:focus-visible {
+  color: var(--ink);
+  outline: none;
+}
+
 @media (max-width: 980px) {
   .hero,
   .three-up,
@@ -376,6 +459,10 @@ main {
   }
 
   .split-callout {
+    flex-direction: column;
+  }
+
+  .home-intro {
     flex-direction: column;
   }
 }
