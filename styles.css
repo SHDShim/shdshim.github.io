@@ -414,22 +414,27 @@ main {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 120px 32px 44px;
-  transform: translate(0, 16vh);
 }
 
-.home-hero-overlay h1 {
+.home-hero-copy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(100%, 980px);
+  padding: 0 32px;
+  text-align: center;
+}
+
+.home-hero-copy h1 {
   margin: 0 0 18px;
   max-width: 13ch;
   font-size: clamp(3rem, 5.2vw, 5.2rem);
   line-height: 0.96;
   letter-spacing: -0.05em;
   font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-subtitle {
@@ -439,16 +444,21 @@ main {
   font-size: clamp(1.2rem, 2.1vw, 2rem);
   line-height: 1.18;
   font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-scroll {
-  margin-top: auto;
+  position: absolute;
+  left: 50%;
+  bottom: 26px;
+  transform: translateX(-50%);
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 3.25rem;
   line-height: 1;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.92);
   text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-  transform: translateY(-14px);
+  z-index: 3;
 }
 
 .home-intro {
@@ -562,11 +572,14 @@ main {
 
   .home-hero-overlay {
     min-height: 92vh;
-    padding: 82px 18px 32px;
-    transform: translate(0, 10vh);
   }
 
-  .home-hero-overlay h1 {
+  .home-hero-copy {
+    width: min(100%, 760px);
+    padding: 0 18px;
+  }
+
+  .home-hero-copy h1 {
     max-width: 11ch;
     font-size: clamp(2.8rem, 11vw, 4.4rem);
   }
@@ -574,6 +587,11 @@ main {
   .home-subtitle {
     max-width: 18ch;
     font-size: clamp(1.1rem, 5.5vw, 1.7rem);
+  }
+
+  .home-scroll {
+    bottom: 18px;
+    font-size: 2.7rem;
   }
 
   .home-nav {
