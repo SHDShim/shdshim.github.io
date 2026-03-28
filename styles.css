@@ -44,7 +44,7 @@ body:not(.home-page) {
   --accent: #6f8791;
   --accent-strong: #4e6671;
   --shadow: 0 20px 54px rgba(53, 62, 68, 0.12);
-  --header-bg: rgba(63, 72, 81, 0.92);
+  --header-bg: rgba(42, 50, 58, 0.96);
   --header-line: rgba(255, 255, 255, 0.08);
   --header-ink: #f4f1eb;
   --header-muted: rgba(244, 241, 235, 0.82);
