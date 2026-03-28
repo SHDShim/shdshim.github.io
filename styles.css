@@ -42,7 +42,7 @@ a {
 }
 
 .home-page .site-frame {
-  width: min(1280px, calc(100% - 24px));
+  width: 100%;
   padding-top: 16px;
 }
 
@@ -375,9 +375,13 @@ main {
 .home-hero {
   position: relative;
   min-height: 100vh;
-  border-radius: 28px 28px 0 0;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  border-radius: 0;
   overflow: hidden;
   border: 1px solid var(--line);
+  border-left: none;
+  border-right: none;
   box-shadow: var(--shadow);
 }
 
@@ -430,6 +434,8 @@ main {
 .home-page .site-header {
   position: relative;
   z-index: 30;
+  width: min(1280px, calc(100% - 24px));
+  margin: 0 auto;
   background: transparent;
   border-color: transparent;
   box-shadow: none;
@@ -457,12 +463,13 @@ main {
   align-items: start;
   justify-content: space-between;
   gap: 28px;
+  width: min(1160px, calc(100% - 28px));
   border-radius: 0;
   box-shadow: none;
   border-left: 1px solid var(--line);
   border-right: 1px solid var(--line);
   border-top: none;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 56px;
 }
 
@@ -498,10 +505,16 @@ main {
 }
 
 .home-paper {
+  width: min(1160px, calc(100% - 28px));
   border-radius: 0 0 28px 28px;
   box-shadow: var(--shadow);
   border-top: none;
-  margin: 0;
+  margin: 0 auto;
+}
+
+.home-page .site-footer {
+  width: min(1160px, calc(100% - 28px));
+  margin: 24px auto 0;
 }
 
 .home-paper-line {
@@ -539,6 +552,10 @@ main {
   .home-intro {
     flex-direction: column;
   }
+
+  .home-page .site-header {
+    width: min(100% - 28px, 1280px);
+  }
 }
 
 @media (max-width: 720px) {
@@ -564,9 +581,15 @@ main {
     margin-top: -74px;
   }
 
+  .home-page .site-header {
+    width: min(100% - 18px, 1160px);
+  }
+
   .home-hero {
     min-height: 92vh;
-    border-radius: 22px 22px 0 0;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    border-radius: 0;
   }
 
   .home-hero-overlay {
@@ -580,6 +603,6 @@ main {
   }
 
   .home-paper {
-    border-radius: 0 0 22px 22px;
+    border-radius: 0;
   }
 }
