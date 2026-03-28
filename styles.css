@@ -460,6 +460,7 @@ main {
   border: none;
   margin: 0;
   padding: 26px 0 10px;
+  scroll-margin-top: 0;
 }
 
 .home-copy {
