@@ -386,7 +386,7 @@ main {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(5, 9, 12, 0.08), rgba(5, 9, 12, 0.12)),
-    url("assets/images/home-hero.jpg") center center / cover no-repeat;
+    url("assets/images/home-hero.jpg") center 52% / cover no-repeat;
 }
 
 .home-nav {
@@ -420,13 +420,13 @@ main {
   align-items: center;
   text-align: center;
   padding: 120px 32px 44px;
-  transform: translateY(8vh);
+  transform: translate(0, 16vh);
 }
 
 .home-hero-overlay h1 {
   margin: 0 0 18px;
   max-width: 13ch;
-  font-size: clamp(3.2rem, 5.6vw, 5.8rem);
+  font-size: clamp(3rem, 5.2vw, 5.2rem);
   line-height: 0.96;
   letter-spacing: -0.05em;
   font-weight: 400;
@@ -446,7 +446,9 @@ main {
   text-decoration: none;
   font-size: 3rem;
   line-height: 1;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.82);
+  text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+  transform: translateY(-14px);
 }
 
 .home-intro {
@@ -561,7 +563,7 @@ main {
   .home-hero-overlay {
     min-height: 92vh;
     padding: 82px 18px 32px;
-    transform: translateY(4vh);
+    transform: translate(0, 10vh);
   }
 
   .home-hero-overlay h1 {
