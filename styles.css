@@ -389,22 +389,43 @@ main {
     url("assets/images/home-hero.jpg") center center / cover no-repeat;
 }
 
+.home-nav {
+  position: absolute;
+  top: 18px;
+  right: 26px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.home-nav a {
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.home-nav a.is-active {
+  font-weight: 700;
+}
+
 .home-hero-overlay {
   position: relative;
   z-index: 1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 28px 32px 72px;
+  padding: 120px 32px 44px;
 }
 
 .home-hero-overlay h1 {
-  margin: 16px 0 24px;
+  margin: 0 0 18px;
   max-width: 9ch;
-  font-size: clamp(4rem, 8vw, 7.6rem);
+  font-size: clamp(4.3rem, 7.4vw, 7.2rem);
   line-height: 0.92;
   letter-spacing: -0.05em;
   font-weight: 500;
@@ -412,19 +433,19 @@ main {
 
 .home-subtitle {
   margin: 0;
-  max-width: 18ch;
+  max-width: 22ch;
   color: rgba(242, 245, 247, 0.92);
-  font-size: clamp(1.8rem, 3vw, 3rem);
-  line-height: 1.14;
+  font-size: clamp(1.75rem, 2.8vw, 2.9rem);
+  line-height: 1.12;
   font-weight: 500;
 }
 
 .home-scroll {
   margin-top: auto;
   text-decoration: none;
-  font-size: 2.6rem;
+  font-size: 3rem;
   line-height: 1;
-  color: rgba(255, 255, 255, 0.58);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .home-intro {
@@ -537,17 +558,29 @@ main {
 
   .home-hero-overlay {
     min-height: 92vh;
-    padding: 22px 18px 40px;
+    padding: 82px 18px 32px;
   }
 
   .home-hero-overlay h1 {
-    margin-top: 8px;
     font-size: clamp(3.2rem, 12vw, 5rem);
   }
 
   .home-subtitle {
     max-width: 16ch;
     font-size: clamp(1.5rem, 6vw, 2.2rem);
+  }
+
+  .home-nav {
+    left: 18px;
+    right: 18px;
+    top: 14px;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-nav a {
+    font-size: 0.92rem;
   }
 
   .home-copy,
