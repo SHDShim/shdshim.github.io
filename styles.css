@@ -32,30 +32,30 @@ body {
 }
 
 body:not(.home-page) {
-  --bg: #dde4de;
-  --bg-top: #eef3ef;
-  --panel: rgba(248, 250, 247, 0.9);
-  --panel-strong: rgba(252, 253, 251, 0.96);
-  --panel-soft: rgba(239, 244, 241, 0.94);
-  --ink: #1f312a;
-  --muted: #617168;
-  --line: rgba(49, 63, 54, 0.08);
-  --line-strong: rgba(49, 63, 54, 0.14);
-  --accent: #567d8a;
-  --accent-strong: #3f6673;
-  --shadow: 0 20px 54px rgba(74, 89, 86, 0.12);
-  --header-bg: rgba(47, 57, 66, 0.9);
+  --bg: #d7ddd8;
+  --bg-top: #e9eeea;
+  --panel: rgba(244, 247, 244, 0.9);
+  --panel-strong: rgba(248, 250, 247, 0.96);
+  --panel-soft: rgba(235, 241, 237, 0.94);
+  --ink: #20292c;
+  --muted: #667376;
+  --line: rgba(46, 56, 61, 0.08);
+  --line-strong: rgba(46, 56, 61, 0.14);
+  --accent: #6f8791;
+  --accent-strong: #4e6671;
+  --shadow: 0 20px 54px rgba(53, 62, 68, 0.12);
+  --header-bg: rgba(63, 72, 81, 0.92);
   --header-line: rgba(255, 255, 255, 0.08);
-  --header-ink: #f5f0e4;
-  --header-muted: rgba(245, 240, 228, 0.8);
+  --header-ink: #f4f1eb;
+  --header-muted: rgba(244, 241, 235, 0.82);
   --header-hover: rgba(255, 255, 255, 0.08);
-  --header-active-bg: rgba(128, 172, 190, 0.32);
-  --header-active-ink: #d9f1ff;
+  --header-active-bg: rgba(122, 144, 156, 0.32);
+  --header-active-ink: #e5f1f6;
   --body-copy-size: 1.16rem;
   background:
-    radial-gradient(circle at top left, rgba(191, 211, 205, 0.28), transparent 22%),
-    radial-gradient(circle at right 18% top 12%, rgba(183, 203, 214, 0.18), transparent 18%),
-    linear-gradient(180deg, var(--bg-top) 0%, var(--bg) 58%, #d1d9d3 100%);
+    radial-gradient(circle at top left, rgba(162, 178, 173, 0.26), transparent 22%),
+    radial-gradient(circle at right 18% top 12%, rgba(147, 164, 175, 0.18), transparent 18%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg) 58%, #cfd6d1 100%);
 }
 
 a {
@@ -754,14 +754,15 @@ body:not(.home-page) .subpage-item p {
 .home-nav a {
   color: rgba(255, 255, 255, 0.92);
   text-decoration: none;
-  font-family: "Manrope", sans-serif;
-  font-size: 0.96rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .home-nav a.is-active {
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .home-hero-overlay {
