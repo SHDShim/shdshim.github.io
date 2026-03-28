@@ -11,12 +11,11 @@
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
     rel="stylesheet"
   >
-  <link rel="stylesheet" href="styles.css?v=20260328c">
+  <link rel="stylesheet" href="styles.css?v=20260328k">
 </head>
 <body>
   <div class="site-frame">
     <header class="site-header">
-      <a class="brand" href="index.html">Dan Shim Lab</a>
       <nav class="site-nav" aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="dan-shim.html">Dan Shim</a>
@@ -30,7 +29,6 @@
 
     <main>
       <section class="page-hero">
-        <p class="eyebrow">Resources</p>
         <h1>Public resources are being migrated. Restricted resources stay private.</h1>
         <p class="lead">
           The original Google Site includes public software and teaching resources as
@@ -41,44 +39,42 @@
 
       <section class="section-block">
         <div class="grid two-up">
-          <article class="card">
-            <h2>Public resources to migrate next</h2>
-            <ul class="detail-list">
-              <li>Software</li>
-              <li>Images</li>
-              <li>Animations</li>
-              <li>Linking research and education</li>
-              <li>Scientific knowledge creation and management</li>
-              <li>Studying Jupyter and Python</li>
-              <li>Tools and tips</li>
-              <li>Video tutorials</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h2>Do not move publicly</h2>
-            <p>
-              Members-only content from the Google Site should not be copied into GitHub Pages.
-              GitHub Pages is public static hosting with no private access control.
-            </p>
-            <p>
-              Keep restricted content in Google Drive, ASU-managed systems, or other
-              authenticated platforms and link to those tools as needed.
-            </p>
-          </article>
+          <details class="card foldable">
+            <summary class="foldable-summary">
+              <h2>Public resources to migrate next</h2>
+            </summary>
+            <div class="foldable-body">
+              <ul class="detail-list">
+                <li>Software</li>
+                <li>Images</li>
+                <li>Animations</li>
+                <li>Linking research and education</li>
+                <li>Scientific knowledge creation and management</li>
+                <li>Studying Jupyter and Python</li>
+                <li>Tools and tips</li>
+                <li>Video tutorials</li>
+              </ul>
+            </div>
+          </details>
+          <details class="card foldable">
+            <summary class="foldable-summary">
+              <h2>Do not move publicly</h2>
+            </summary>
+            <div class="foldable-body">
+              <p>
+                Members-only content from the Google Site should not be copied into GitHub Pages.
+                GitHub Pages is public static hosting with no private access control.
+              </p>
+              <p>
+                Keep restricted content in Google Drive, ASU-managed systems, or other
+                authenticated platforms and link to those tools as needed.
+              </p>
+            </div>
+          </details>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div>
-        <p class="section-label">Resources</p>
-        <h2>Dan Shim Lab</h2>
-        <p>Migration and access strategy</p>
-      </div>
-      <div class="footer-links">
-        <a href="https://www.danshimlab.info/">Original Google Site</a>
-      </div>
-    </footer>
   </div>
 </body>
 </html>

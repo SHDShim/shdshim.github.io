@@ -11,12 +11,11 @@
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
     rel="stylesheet"
   >
-  <link rel="stylesheet" href="styles.css?v=20260328c">
+  <link rel="stylesheet" href="styles.css?v=20260328k">
 </head>
 <body>
   <div class="site-frame">
     <header class="site-header">
-      <a class="brand" href="index.html">Dan Shim Lab</a>
       <nav class="site-nav" aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="dan-shim.html">Dan Shim</a>
@@ -30,7 +29,6 @@
 
     <main>
       <section class="page-hero">
-        <p class="eyebrow">Publications</p>
         <h1>Selected research output</h1>
         <p class="lead">
           This page replaces the Google Site publications section with a format that
@@ -39,26 +37,34 @@
       </section>
 
       <section class="section-block">
-        <div class="section-heading">
-          <p class="section-label">Migration Baseline</p>
-          <h2>Publication list structure</h2>
-        </div>
         <div class="publication-stack">
-          <article class="card">
-            <p class="time-label">Featured</p>
-            <h3>Add recent representative paper title</h3>
-            <p>Author list. Journal, volume, pages, year. DOI link.</p>
-          </article>
-          <article class="card">
-            <p class="time-label">Featured</p>
-            <h3>Add second representative paper title</h3>
-            <p>Author list. Journal, volume, pages, year. DOI link.</p>
-          </article>
-          <article class="card">
-            <p class="time-label">Featured</p>
-            <h3>Add third representative paper title</h3>
-            <p>Author list. Journal, volume, pages, year. DOI link.</p>
-          </article>
+          <details class="card foldable">
+            <summary class="foldable-summary">
+              <p class="time-label">Featured</p>
+              <h3>Add recent representative paper title</h3>
+            </summary>
+            <div class="foldable-body">
+              <p>Author list. Journal, volume, pages, year. DOI link.</p>
+            </div>
+          </details>
+          <details class="card foldable">
+            <summary class="foldable-summary">
+              <p class="time-label">Featured</p>
+              <h3>Add second representative paper title</h3>
+            </summary>
+            <div class="foldable-body">
+              <p>Author list. Journal, volume, pages, year. DOI link.</p>
+            </div>
+          </details>
+          <details class="card foldable">
+            <summary class="foldable-summary">
+              <p class="time-label">Featured</p>
+              <h3>Add third representative paper title</h3>
+            </summary>
+            <div class="foldable-body">
+              <p>Author list. Journal, volume, pages, year. DOI link.</p>
+            </div>
+          </details>
         </div>
       </section>
 
@@ -80,16 +86,6 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div>
-        <p class="section-label">Publications</p>
-        <h2>Dan Shim Lab</h2>
-        <p>Selected papers, software, and outputs</p>
-      </div>
-      <div class="footer-links">
-        <a href="mailto:sshim5@asu.edu">sshim5@asu.edu</a>
-      </div>
-    </footer>
   </div>
 </body>
 </html>
