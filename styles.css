@@ -575,6 +575,15 @@ body:not(.home-page) .site-footer p {
   margin-top: 0;
 }
 
+.contact-block {
+  display: grid;
+  gap: 4px;
+}
+
+.contact-block p {
+  margin: 0;
+}
+
 .surface-strong {
   background: var(--panel-soft);
 }
@@ -907,34 +916,27 @@ body:not(.home-page) .subpage-item p {
 }
 
 .home-intro {
-  width: 100%;
-  max-width: none;
-  display: block;
-  background: #fff;
-  color: #2a3238;
-  border-radius: 0;
-  box-shadow: none;
-  border: none;
-  margin: 0;
-  padding: 26px 0 10px;
+  width: min(1160px, calc(100% - 28px));
+  margin: 24px auto 0;
+  padding: 34px 36px 30px;
   scroll-margin-top: 0;
 }
 
 .home-copy {
-  width: min(1280px, calc(100% - 80px));
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 .home-copy p {
   margin: 0 0 18px;
-  color: #2f3940;
-  font-size: 1rem;
-  line-height: 1.82;
+  color: var(--ink);
+  font-size: 1.12rem;
+  line-height: 1.76;
 }
 
 .home-copy a,
 .home-paper-line a {
-  color: #526875;
+  color: var(--accent-strong);
   text-decoration: underline;
 }
 
