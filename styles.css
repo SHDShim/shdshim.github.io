@@ -376,6 +376,10 @@ body:not(.home-page) .lead {
   max-width: 56ch;
 }
 
+.resources-page .lead {
+  max-width: none;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
