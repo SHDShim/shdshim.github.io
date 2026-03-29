@@ -563,8 +563,16 @@ body:not(.home-page) .site-footer p {
 
 .member-card {
   display: grid;
-  gap: 10px;
+  gap: 4px;
   align-content: start;
+}
+
+.member-card h3 {
+  margin-bottom: 0;
+}
+
+.member-card p {
+  margin-top: 0;
 }
 
 .surface-strong {
@@ -772,6 +780,17 @@ body:not(.home-page) .subpage-item p {
 .news-stack .subpage-item h3,
 .topic-cluster .subpage-item h3 {
   margin-bottom: 10px;
+}
+
+.inline-news-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+}
+
+.inline-news-item .time-label {
+  font-size: 1rem;
 }
 
 .research-layout {
