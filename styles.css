@@ -121,14 +121,21 @@ body:not(.home-page) .site-header::before {
   inset: 0;
   pointer-events: none;
   background-image:
-    radial-gradient(circle at 10% 28%, rgba(255, 255, 255, 0.94) 0 0.8px, transparent 1.2px),
-    radial-gradient(circle at 24% 68%, rgba(255, 255, 255, 0.84) 0 0.75px, transparent 1.1px),
-    radial-gradient(circle at 38% 24%, rgba(255, 255, 255, 0.88) 0 0.8px, transparent 1.15px),
-    radial-gradient(circle at 56% 58%, rgba(255, 255, 255, 0.76) 0 0.7px, transparent 1.05px),
-    radial-gradient(circle at 74% 22%, rgba(242, 231, 210, 0.8) 0 0.75px, transparent 1.1px),
-    radial-gradient(circle at 88% 66%, rgba(255, 255, 255, 0.9) 0 0.8px, transparent 1.15px);
-  background-size: 120px 120px, 160px 160px, 180px 180px, 140px 140px, 200px 200px, 150px 150px;
-  opacity: 0.82;
+    radial-gradient(circle at 8% 24%, rgba(255, 255, 255, 0.52) 0 0.55px, transparent 1px),
+    radial-gradient(circle at 14% 68%, rgba(245, 240, 228, 0.42) 0 0.5px, transparent 0.95px),
+    radial-gradient(circle at 22% 42%, rgba(255, 255, 255, 0.48) 0 0.6px, transparent 1px),
+    radial-gradient(circle at 31% 18%, rgba(255, 255, 255, 0.4) 0 0.5px, transparent 0.95px),
+    radial-gradient(circle at 39% 62%, rgba(238, 229, 207, 0.38) 0 0.52px, transparent 0.96px),
+    radial-gradient(circle at 48% 32%, rgba(255, 255, 255, 0.5) 0 0.58px, transparent 1px),
+    radial-gradient(circle at 57% 72%, rgba(255, 255, 255, 0.42) 0 0.52px, transparent 0.96px),
+    radial-gradient(circle at 66% 22%, rgba(243, 233, 214, 0.36) 0 0.5px, transparent 0.94px),
+    radial-gradient(circle at 74% 56%, rgba(255, 255, 255, 0.46) 0 0.56px, transparent 0.98px),
+    radial-gradient(circle at 82% 18%, rgba(255, 255, 255, 0.38) 0 0.5px, transparent 0.94px),
+    radial-gradient(circle at 90% 64%, rgba(255, 255, 255, 0.48) 0 0.58px, transparent 1px),
+    radial-gradient(circle at 96% 34%, rgba(244, 236, 220, 0.4) 0 0.52px, transparent 0.96px);
+  background-size: 72px 72px, 88px 88px, 96px 96px, 104px 104px, 112px 112px, 84px 84px, 92px 92px, 108px 108px, 98px 98px, 116px 116px, 90px 90px, 100px 100px;
+  opacity: 0.6;
+  filter: blur(0.35px);
 }
 
 body:not(.home-page) .site-header::after {
@@ -138,7 +145,11 @@ body:not(.home-page) .site-header::after {
   pointer-events: none;
   background:
     radial-gradient(circle at 16% 0%, rgba(214, 194, 154, 0.05), transparent 0 26%),
-    radial-gradient(circle at 84% 100%, rgba(188, 176, 147, 0.05), transparent 0 24%);
+    radial-gradient(circle at 84% 100%, rgba(188, 176, 147, 0.05), transparent 0 24%),
+    radial-gradient(ellipse at 78% 52%, rgba(154, 143, 171, 0.11), transparent 0 18%),
+    radial-gradient(ellipse at 88% 42%, rgba(201, 187, 154, 0.09), transparent 0 14%),
+    radial-gradient(ellipse at 72% 68%, rgba(136, 145, 170, 0.08), transparent 0 16%);
+  filter: blur(10px);
 }
 
 .brand {
