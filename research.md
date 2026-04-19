@@ -36,11 +36,13 @@ permalink: /research.html
     <div class="foldable-body news-stack">
       <article class="subpage-item">
         <h3>Latest</h3>
+        {% for item in site.data.research.news.latest limit: 2 %}
         <p class="inline-news-item">
-          <span class="time-label">{{ site.data.research.news.latest.date }}</span>
-          <span>{{ site.data.research.news.latest.text }}</span>
-          <a class="text-link" href="{{ site.data.research.news.latest.source_url }}" target="_blank" rel="noreferrer">{{ site.data.research.news.latest.source_label }}</a>
+          <span class="time-label">{{ item.date }}</span>
+          <span>{{ item.text }}</span>
+          <a class="text-link" href="{{ item.source_url }}" target="_blank" rel="noreferrer">{{ item.source_label }}</a>
         </p>
+        {% endfor %}
       </article>
       <details class="subpage-item foldable">
         <summary class="foldable-summary">

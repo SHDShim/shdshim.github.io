@@ -44,6 +44,21 @@ permalink: /index.html
     <p>
       <a href="{{ site.data.home.facility.url }}">{{ site.data.home.facility.text }}</a>.
     </p>
+
+    <details class="card foldable" open>
+      <summary class="foldable-summary">
+        <h3>Our research in news</h3>
+      </summary>
+      <div class="foldable-body">
+        {% for item in site.data.research.news.latest limit: 2 %}
+        <p class="inline-news-item">
+          <span class="time-label">{{ item.date }}</span>
+          <span>{{ item.text }}</span>
+          <a class="text-link" href="{{ item.source_url }}" target="_blank" rel="noreferrer">{{ item.source_label }}</a>
+        </p>
+        {% endfor %}
+      </div>
+    </details>
   </div>
 </section>
 </main>
