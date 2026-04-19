@@ -1,20 +1,44 @@
 # Dan Shim Lab Website
 
-This repository now hosts the static GitHub Pages version of the lab website at
+This repository hosts the GitHub Pages version of the lab website at
 `https://shdshim.github.io/`, with content migration underway from
 `https://www.danshimlab.info/`.
 
 ## Current structure
 
-- `index.html`: homepage
-- `dan-shim.html`: PI profile
-- `people.html`: lab people page
-- `research.html`: research themes and methods
-- `publications.html`: publication page scaffold
-- `resources.html`: migration strategy for public and private resources
-- `opportunities.html`: current opportunity posting
+This site is now configured for Jekyll so page content can be managed with
+Markdown front matter and shared layouts.
+
+- `_config.yml`: Jekyll site configuration
+- `_layouts/`: shared page layouts (`default.html`, `home.html`)
+- `_includes/`: reusable head and primary navigation includes
+- `index.md`, `dan-shim.md`, `dan-shim-cv.md`, `dan-shim-teaching.md`, `dan-shim-talks.md`, `people.md`, `research.md`, `publications.md`, `resources.md`: page templates (Liquid + layout structure)
+- `_data/home.yml`: homepage text/content data
+- `_data/dan_shim.yml`: PI overview/CV/teaching/talks content data
+- `_data/people.yml`: people page content data
+- `_data/research.yml`: research page content data
+- `_data/publications.yml`: publication periods and entries
+- `_data/resources.yml`: resources page content data
 - `styles.css`: shared site styling
-- `.nojekyll`: serves the site as plain static files on GitHub Pages
+
+## Local development (Jekyll)
+
+1. Install dependencies:
+   - `bundle install`
+2. Serve the site locally:
+   - `bundle exec jekyll serve`
+3. Open:
+   - `http://127.0.0.1:4000`
+
+## Content maintenance
+
+- For routine content updates, edit `_data/*.yml` instead of page templates.
+- `index.md` reads from `_data/home.yml`.
+- `dan-shim*.md` pages read from `_data/dan_shim.yml`.
+- `people.md` reads from `_data/people.yml`.
+- `research.md` reads from `_data/research.yml`.
+- `publications.md` reads from `_data/publications.yml`.
+- `resources.md` reads from `_data/resources.yml`.
 
 ## Preserved old site
 
@@ -25,8 +49,8 @@ The earlier site histories were preserved locally before the reset:
 
 ## Migration approach
 
-The current implementation is a first-pass migration from the Google Site into a
-maintainable static multi-page structure. The next upgrades should be:
+The current implementation is a migration from the Google Site into a
+maintainable multi-page structure. The next upgrades should be:
 
 - migrate the full people roster
 - migrate publication entries with DOI links

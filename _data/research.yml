@@ -1,0 +1,177 @@
+hero:
+  title: "Research"
+  lead: "The lab investigates how materials behave under extreme conditions of planets."
+  image: "assets/images/magma-ocean-water-generation-impactor.png"
+  image_alt: "Illustration of an impactor over a magma ocean"
+
+news:
+  latest:
+    date: "2025.11"
+    text: "Alien worlds may be able to make their own water."
+    source_label: "Science"
+    source_url: "https://www.science.org/content/article/alien-worlds-may-be-able-make-their-own-water?utm_campaign=Science&utm_medium=ownedSocial&utm_source=facebook&fbclid=IwZnRzaANw_flleHRuA2FlbQIxMQABHvD91r0BW4xpEZeln_VG1ArFZGq_XuID5stn2dNRnM-NOWi4Nka7gNL9pysh_aem_SPg2DZd-o_1yAKieimNJiQ"
+  earlier:
+    - year: "2023"
+      text: "ASU researchers discover new mineralogy of the deep Earth."
+      links:
+        - label: "ASU News"
+          url: "https://news.asu.edu/20221019-asu-researchers-discover-new-mineralogy-deep-earth"
+        - label: "Phys.org"
+          url: "https://phys.org/news/2022-10-previously-unknown-mineralogy-deep-earth.html"
+    - year: "2022"
+      text: "Earth's core may be causing strange anomalies, study suggests."
+      links:
+        - label: "ASU News"
+          url: "https://news.asu.edu/20230215-rising-siliconrich-snow-earths-outer-core"
+        - label: "Vice"
+          url: "https://www.vice.com/en/article/v7v9kj/earths-core-may-be-causing-strange-anomalies-study-suggests"
+    - year: "2022"
+      text: "Diamonds and rust at the Earth's core-mantle boundary."
+      links:
+        - label: "ASU News"
+          url: "https://news.asu.edu/20220829-diamonds-and-rust-earths-coremantle-boundary"
+        - label: "Newsweek"
+          url: "https://www.newsweek.com/diamonds-made-earth-core-mantle-boundary-1738459"
+    - year: "2021"
+      text: "Uranus and Neptune: Stardust in the deep interior of low-mass planets."
+      links:
+        - label: "Nature Astronomy News and Views"
+          url: "https://www.nature.com/articles/s41550-021-01421-0.pdf?proof=tr"
+    - year: "2020"
+      text: "Carbon-rich planets made of diamonds may exist beyond our solar system, study says."
+      links:
+        - label: "CNN"
+          url: "https://www.cnn.com/2020/09/14/world/carbon-exoplanets-made-of-diamonds-scn-trnd/index.html"
+    - year: "2017"
+      text: "Exogeology: The labs that forge distant planets here on Earth."
+      links:
+        - label: "Nature News Feature"
+          url: "https://www.nature.com/articles/d41586-017-07844-y"
+
+topics:
+  - title: "Super-Earth exoplanets"
+    content: |
+      Through high-pressure experiments, we investigate rocks from exoplanets, whose compositions can differ significantly from Earth. These compositional differences can affect the evolution and dynamics of rocky, Earth-like exoplanets.
+
+      Recent examples: [diamond-rich planets (Horn et al., 2020, Planetary Science Journal)](https://iopscience.iop.org/article/10.3847/PSJ/abaa3e), [silicon-carbide planets (Nisr et al., 2016, JGR-Planets)](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JE005158), and [spin state of Fe in basal magma oceans of super-Earths (Shim et al., 2023, Science Advances)](https://www.science.org/doi/10.1126/sciadv.adi6153).
+
+  - title: "Sub-Neptune exoplanets"
+    content: |
+      Sub-Neptunes are common in our galaxy and may have either rocky interiors with dense hydrogen-rich atmospheres or thick water layers. The relationship between these two types remains unclear.
+
+      We study reactions between silicate/oxide minerals and dense hydrogen, which can release oxygen from silicates and produce water. Recent examples: [Horn et al., 2023, Planetary Science Journal](https://iopscience.iop.org/article/10.3847/PSJ/acab03), [Horn et al., 2025, Nature](https://www.nature.com/articles/s41586-025-09630-7), and [Kim et al., 2023, PNAS](https://doi.org/10.1073/pnas.2309786120).
+
+  - title: "Uranus, Neptune, and waterworld exoplanets"
+    content: |
+      Uranus and Neptune are water-rich planets, and some sub-Neptune exoplanets are also likely water worlds. In these planets, water interacts with rocks under extreme pressure-temperature conditions.
+
+      We use high-pressure experiments to constrain internal structure and geochemical cycles. Recent examples: [Nisr et al., 2020, PNAS](https://www.pnas.org/content/117/18/9747) and [Kim et al., 2021, Nature Astronomy](https://www.nature.com/articles/s41550-021-01368-2).
+
+  - title: "Earth's lower mantle"
+    content: |
+      Seismic imaging reveals complex structures in Earth's deep interior. Geodynamic simulations show that formation and destruction of these structures can influence surface tectonics and volcanism.
+
+      We provide physical and chemical constraints for these processes in collaboration with experts in seismology, geodynamics, and planetary dynamics.
+
+      Recent examples: [Chen et al., 2020, EPSL](https://www.sciencedirect.com/science/article/abs/pii/S0012821X20304957?via%3Dihub), [Kim et al., 2020, GRL](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL089345), [Bindi et al., 2020, Science Advances](https://advances.sciencemag.org/content/6/2/eaay7893), and [Ko et al., 2022, Nature](https://www.nature.com/articles/s41586-022-05237-4).
+
+  - title: "Earth's core-mantle boundary"
+    content: |
+      Water likely reaches the core-mantle boundary and facilitates reactions between lower-mantle minerals and outer-core liquid iron alloys under extreme conditions.
+
+      We investigate these reactions to explain fine-scale features such as ultra-low velocity zones, core-rigidity zones, and the E' layer in the outer core.
+
+      Recent examples: [Ko et al., 2022, Geophysical Research Letters](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL098271) and [Kim et al., 2022, Nature Geoscience](https://www.nature.com/articles/s41561-023-01324-x).
+
+  - title: "Earth's core"
+    content: |
+      Hydrogen is the most abundant element in the solar system, but its storage in Earth's deep interior remains poorly constrained.
+
+      We investigate how hydrogen affects the chemistry, structure, and dynamics of Earth's core. Recent examples: [Fu et al., 2022, PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.104111), [Fu et al., 2022, American Mineralogist](https://pubs.geoscienceworld.org/msa/ammin/article-abstract/107/12/2307/619046/Hydrogen-solubility-in-FeSi-alloy-phases-at-high), and [Fu et al., 2023, Nature](https://www.nature.com/articles/s41586-023-05713-5).
+
+  - title: "Earth's early hydrogen"
+    content: |
+      To understand early Earth volatile evolution, we study atmosphere-magma ocean interactions.
+
+      Using hydrogen gas loading and microsecond pulse laser heating, we investigate reactions between hydrogen and silicate melts or iron liquids under deep magma-ocean conditions.
+
+      Recent example: [Piet et al., 2023, GRL](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL101155).
+
+  - title: "Mars deep hydrogen and water"
+    content: |
+      Mars' dynamo stopped abruptly, potentially linked to its shift from wet to dry surface conditions. The mechanism remains uncertain.
+
+      We investigate water- and hydrogen-mediated core-mantle interactions in Mars. Recent examples: [O'Rourke and Shim, 2019, JGR-Planets](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JE005950) and [Piet et al., 2021, JGR-Planets](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JE006942).
+
+methods:
+  - title: "Laser-heated diamond anvil cell"
+    content: |
+      Diamond-anvil cells compress materials between gem-quality diamonds to reach extreme pressures (about 1-5,000,000 bar). Diamond transmits X-rays, infrared, and visible light, enabling in situ diffraction and spectroscopy at high pressure-temperature conditions.
+
+      Laser heating raises sample temperatures to ~1,000-5,000 K. Our lab uses both fiber laser (1070 nm) and CO2 laser (10,000 nm) systems. Recent examples: [Ko et al., 2022, Nature](https://www.nature.com/articles/s41586-022-05237-4), [Fu et al., 2023, Nature](https://www.nature.com/articles/s41586-023-05713-5), and [Horn et al., 2025, Nature](https://www.nature.com/articles/s41586-025-09630-7).
+
+  - title: "Hydrogen gas loading system"
+    content: |
+      Our gas loading system supports hydrogen, helium, neon, oxygen, and gas mixtures in diamond-anvil cells, enabling volatile-silicate/metal reaction experiments at high pressure.
+
+      Recent examples: [Fu et al., 2023, Nature](https://www.nature.com/articles/s41586-023-05713-5), [Horn et al., 2023, Planetary Science Journal](https://iopscience.iop.org/article/10.3847/PSJ/acab03), [Kim et al., 2023, PNAS](https://doi.org/10.1073/pnas.2309786120), and [Horn et al., 2025, Nature](https://www.nature.com/articles/s41586-025-09630-7).
+
+  - title: "Multi-anvil press"
+    content: |
+      Multi-anvil presses allow larger-volume synthesis at ~0-28 GPa. Two 1100-ton presses are available at ASU, with additional presses installed at [FORCE](https://force.asu.edu/) for expanded experimental capability.
+
+      Recent examples: [Kulka et al., 2020, Minerals](https://www.mdpi.com/2075-163X/10/10/879) and [Chen et al., 2020, American Mineralogist](https://pubs.geoscienceworld.org/msa/ammin/article-abstract/105/8/1221/586738/Phase-relationship-of-Al-bearing-bridgmanite-at).
+
+  - title: "Dynamic compression"
+    content: |
+      We use dynamic compression of silicates and metals to investigate melt structure and properties at extreme pressure-temperature conditions, including super-Earth regimes.
+
+      Recent examples: [Hwang et al., 2020, Science Advances](https://www.science.org/doi/10.1126/sciadv.abb1477), [Morard et al., 2020, PNAS](https://www.pnas.org/doi/10.1073/pnas.2000259117), and [Shim et al., 2023, Science Advances](https://www.science.org/doi/10.1126/sciadv.adi6153).
+
+  - title: "Synchrotron"
+    content: |
+      Synchrotron facilities provide bright X-ray beams for in situ diffraction and spectroscopy in diamond-anvil cell experiments.
+
+      Recent examples: [Ko et al., 2022, Nature](https://www.nature.com/articles/s41586-022-05237-4), [Fu et al., 2023, Nature](https://www.nature.com/articles/s41586-023-05713-5), and [Shim et al., 2017, PNAS](https://www.pnas.org/doi/10.1073/pnas.1614036114).
+
+  - title: "X-ray Free Electron Laser"
+    content: |
+      XFEL sources provide ultrabright pulses with high time resolution. We perform dynamic and static experiments at LCLS and PAL-XFEL.
+
+      Recent examples: [Hwang et al., 2020, Science Advances](https://www.science.org/doi/10.1126/sciadv.abb1477), [Morard et al., 2020, PNAS](https://www.pnas.org/doi/10.1073/pnas.2000259117), and [Shim et al., 2023, Science Advances](https://www.science.org/doi/10.1126/sciadv.adi6153).
+
+  - title: "Raman spectroscopy"
+    content: |
+      Raman spectroscopy enables phase identification and thermodynamic constraints and is especially effective for icy and volatile-rich materials (H2O, NH3, CH4, CO2).
+
+      Recent examples: [Allen-Sutter et al., 2020, Planetary Science Journal](https://iopscience.iop.org/article/10.3847/PSJ/ab908d) and [Ko et al., 2022, GRL](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL098271).
+
+  - title: "Electron microscopy"
+    content: |
+      Aberration-corrected electron microscopy allows nanometer to atomic-scale chemical analysis with high spectral resolution (EDX/EELS).
+
+      Recent examples: [Shim et al., 2017, PNAS](https://www.pnas.org/doi/10.1073/pnas.1614036114), [Kim et al., 2021, Nature Astronomy](https://www.nature.com/articles/s41550-021-01368-2), and [Kim et al., 2023, Nature Geoscience](https://www.nature.com/articles/s41561-023-01324-x).
+
+  - title: "Secondary Ion Mass Spectrometry"
+    content: |
+      Secondary ion mass spectrometry (including NanoSIMS) supports isotopic and volatile measurements of high-pressure synthesized samples.
+
+      Recent example: [Nisr et al., 2020, PNAS](https://www.pnas.org/doi/10.1073/pnas.1918695117).
+
+  - title: "Density functional theory"
+    content: |
+      We pair high-pressure experiments with density functional theory to improve coverage and interpretation when direct measurements are limited.
+
+      Recent examples: [Nisr et al., 2020, PNAS](https://www.pnas.org/doi/10.1073/pnas.1918695117) and [Piet et al., 2023, GRL](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL101155).
+
+links:
+  research_links:
+    - label: "Materials of the Universe (MOTU)"
+      url: "https://motu.asu.edu/motu-research/"
+    - label: "Facility for Open Research in a Compressed Environment (FORCE)"
+      url: "https://force.asu.edu"
+    - label: "Nexus for Exoplanet System Science (NExSS)"
+      url: "https://nexss.info/"
+  support:
+    image: "assets/images/logos-funding.png"
+    image_alt: "Funding and support logos including NSF, NASA, and the W. M. Keck Foundation"

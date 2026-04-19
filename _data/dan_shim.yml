@@ -1,0 +1,100 @@
+hero:
+  name_html: "S.-H. Dan Shim<br>심 상 헌"
+  lead: "Mineralogist, materials scientist, planetary scientist, astrobiologist, and geophysicist studying planetary interiors through experiments under extreme conditions."
+  image_url: "https://webapp4.asu.edu/photo-ws/directory_photo/sshim5?blankImage2=1&size=large"
+  image_alt: "Portrait of S.-H. Dan Shim"
+
+overview_sections:
+  - title: "Research profile"
+    open: true
+    text: "As a mineralogist and materials scientist, I study the behavior of planetary interiors under extreme conditions using experimental and computational methods. As a planetary scientist and geophysicist, I use these findings to understand the evolution and dynamics of planets. My work in comparative planetary science also involves collaboration with seismologists, geodynamicists, planetary scientists, and astrophysicists to explore how material processes in planetary interiors shape the chemical and physical evolution of planets."
+  - title: "Teaching and mentoring"
+    text: "I create educational content using an open-source computational framework and large language model productivity tools. I am passionate about teaching data analysis, computation, and knowledge development, and I am deeply interested in connecting research and education."
+    link:
+      label: "Open teaching page"
+      url: "dan-shim-teaching.html"
+  - title: "Affiliations"
+    html: "<a class=\"text-link\" href=\"https://sese.asu.edu/\">School of Earth and Space Exploration</a>, <a class=\"text-link\" href=\"https://motu.asu.edu/\">Materials of the Universe</a>, and <a class=\"text-link\" href=\"https://force.asu.edu/\">FORCE at ASU</a>."
+
+overview_cards:
+  - title: "CV"
+    text: "Appointments, affiliations, major milestones, and professional background."
+    link:
+      label: "Open CV page"
+      url: "dan-shim-cv.html"
+  - title: "Talks"
+    text: "Invited talks, featured appearances, media, and public research communication."
+    link:
+      label: "Open talks page"
+      url: "dan-shim-talks.html"
+
+cv:
+  positions:
+    - "Professor, School of Earth and Space Exploration, Arizona State University, USA, 2021-present."
+    - "Navrotsky Professor of Materials Research, Arizona State University, USA, 2022-2025."
+    - "Associate Professor, School of Earth and Space Exploration, Arizona State University, USA, 2012-2021."
+    - "Visiting Professor, Yonsei University, Korea, 2019."
+    - "Visiting Scientist, Institut de Physique du Globe de Paris, France, 2014."
+    - "Associate Professor, Department of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology, USA, 2008-2011."
+    - "Assistant Professor, Department of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology, USA, 2003-2007."
+    - "Miller Research Fellow, University of California at Berkeley, USA, 2001-2003."
+  education:
+    - "Ph.D. Geosciences, Princeton University, USA, 2001."
+    - "M.S. Geological Sciences, Seoul National University, Korea, 1994."
+    - "B.S. Geological Sciences, Seoul National University, Korea, 1992."
+  contact:
+    - "SHDShim at ASU dot EDU"
+    - "School of Earth and Space Exploration"
+    - "Arizona State University"
+    - "ISTB4-575, 221"
+    - "781 E Terrace Road"
+    - "Tempe AZ 85287-6004"
+  personal_links:
+    - label: "Full CV in PDF"
+      url: "assets/pdfs/cv-shim.pdf"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=ZRyGeHoAAAAJ"
+    - label: "LinkedIn"
+      url: "http://www.linkedin.com/pub/sang-heon-dan-shim/38/976/2ab"
+    - label: "ResearchGate"
+      url: "https://www.researchgate.net/profile/Sang-Heon_Shim/?cp=shp"
+    - label: "ORCID"
+      url: "http://orcid.org/0000-0001-5203-6038"
+    - label: "SCOPUS"
+      url: "https://www.scopus.com/authid/detail.uri?authorId=7202796160"
+    - label: "Dan Shim @ ASU"
+      url: "https://isearch.asu.edu/profile/1923608"
+    - label: "Expert.ASU"
+      url: "https://asu.elsevierpure.com/en/persons/s-h-dan-shim/"
+    - label: "GitHub"
+      url: "https://github.com/SHDShim"
+
+teaching:
+  topics:
+    - title: "Interiors of Earth, solar-system planets, and exoplanets"
+      text: "Planetary interiors, including rocky planets, ice giants, gas giants, carbon planets, water world exoplanets, hydrogen world exoplanets, super-Earths, and sub-Neptunes."
+    - title: "Mineral physics and mineralogy"
+      text: "Planetary Materials, Structure of Earth Materials, Introduction to Mineral Physics, Mineral spectroscopy and crystallography, and Phase Transitions in the Mantle."
+    - title: "Knowledge creation and management"
+      text: "Development of new scientific knowledge by combining a range of AI/LLM tools."
+    - title: "Data analysis"
+      text: "Coding for exploration, Python for Earth Science, Python for Graduate Research, and Data and Computation."
+    - title: "Other courses"
+      text: "Introduction to Geology, The Core-Mantle Boundary, Volatiles and Ices in Earth and Planets, and Hydrogen: From Planetary To Energy Sciences."
+
+talks:
+  links:
+    - label: "GSECARS workshop talk"
+      url: "https://youtu.be/HuWz38aRfU0"
+    - label: "KITP Earth 2016 talk"
+      url: "http://online.kitp.ucsb.edu/online/earth16/shim1/"
+    - label: "Public lecture, KAOS foundation"
+      url: "https://www.youtube.com/watch?v=Mup5lI007TU"
+    - label: "Catalyst, AZ PBS"
+      url: "https://azpbs.org/catalyst/2018/05/catalyst-exploring-exoplanets-from-earth/"
+    - label: "MRS news on Materials of the Universe"
+      url: "https://youtu.be/o7jPEKzTeoo"
+    - label: "Washington Post article"
+      url: "https://www.washingtonpost.com/science/2023/07/18/earth-layers-high-pressure-laboratory/"
+    - label: "CNN article on diamond planets"
+      url: "https://www.cnn.com/2020/09/14/world/carbon-exoplanets-made-of-diamonds-scn-trnd/index.html"

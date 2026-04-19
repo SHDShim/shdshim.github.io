@@ -1,0 +1,6 @@
+title: Dan Shim Lab
+description: Dan Shim Lab at Arizona State University studying planetary materials and interiors under extreme conditions.
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty

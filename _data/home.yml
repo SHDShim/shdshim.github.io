@@ -1,0 +1,35 @@
+hero:
+  title: "Exo-Materials Research"
+  subtitle: "Earth, Mars, Venus, Super-Earths, Uranus, Neptune, and Sub-Neptunes"
+
+intro:
+  paragraphs:
+    - "What materials make up planets? How do these materials behave under the extreme temperatures and pressures found in planetary interiors? Do the properties of these materials impact a planet's chemical processes and dynamics? How do internal processes affect surface environment, atmosphere, and habitability?"
+    - "Our research aims to understand the internal structures and processes of various planets, including Earth, the planets of our solar system, and exoplanets, by examining the properties and behaviors of their constituent materials. These materials include hydrogen, water, silicates, oxides, hydroxides, carbides, hydrides, and metal alloys. To replicate the high-pressure and high-temperature conditions found within planetary interiors, we use a variety of techniques such as the laser-heated diamond-anvil cell, multi-anvil press, and dynamic compression. To analyze the properties and behaviors of these materials, we employ a range of methods, including X-ray diffraction (both synchrotron and XFEL), X-ray spectroscopy (both synchrotron and XFEL), infrared spectroscopy, Raman spectroscopy, electron microscopy, mass spectrometry, and density functional theory."
+
+media:
+  lead: "To learn about our recent research directions, you may watch"
+  links:
+    - label: "my talk in GSECARS workshop"
+      url: "https://youtu.be/HuWz38aRfU0"
+    - label: "an episode of Catalyst, AZ PBS (Exploring exoplanets from Earth)"
+      url: "https://azpbs.org/catalyst/2018/05/catalyst-exploring-exoplanets-from-earth/"
+    - label: "MRS news on Materials of the Universe"
+      url: "https://youtu.be/o7jPEKzTeoo"
+
+news:
+  lead: "You may also read"
+  links:
+    - label: "a Washington Post new article"
+      url: "https://www.washingtonpost.com/science/2023/07/18/earth-layers-high-pressure-laboratory/"
+    - label: "CNN news on diamond planets"
+      url: "https://www.cnn.com/2020/09/14/world/carbon-exoplanets-made-of-diamonds-scn-trnd/index.html"
+  nature:
+    - label: "The labs that forge distant planets here on Earth"
+      url: "https://www.nature.com/articles/d41586-017-07844-y"
+    - label: "To make water, exoplanets might just need some pressure"
+      url: "https://www.nature.com/articles/d41586-025-03214-1"
+
+facility:
+  text: "You may also check our new exciting National Multi-Anvil Press Facility (FORCE: Facility for Open Research in a Compressional Environment) at ASU"
+  url: "https://force.asu.edu"

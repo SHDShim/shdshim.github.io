@@ -1,0 +1,8 @@
+<nav class="site-nav" aria-label="Primary">
+  <a class="{% if page.nav_key == 'home' %}is-active{% endif %}" href="{{ '/index.html' | relative_url }}">Home</a>
+  <a class="{% if page.nav_key == 'dan-shim' %}is-active{% endif %}" href="{{ '/dan-shim.html' | relative_url }}">Dan Shim</a>
+  <a class="{% if page.nav_key == 'people' %}is-active{% endif %}" href="{{ '/people.html' | relative_url }}">People</a>
+  <a class="{% if page.nav_key == 'research' %}is-active{% endif %}" href="{{ '/research.html' | relative_url }}">Research</a>
+  <a class="{% if page.nav_key == 'publications' %}is-active{% endif %}" href="{{ '/publications.html' | relative_url }}">Publications</a>
+  <a class="{% if page.nav_key == 'resources' %}is-active{% endif %}" href="{{ '/resources.html' | relative_url }}">Resources</a>
+</nav>

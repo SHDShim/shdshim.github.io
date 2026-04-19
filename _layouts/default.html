@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <div class="site-frame">
+    <header class="site-header">
+      {% include site-nav.html %}
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

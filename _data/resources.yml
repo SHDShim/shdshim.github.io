@@ -1,0 +1,180 @@
+hero:
+  title: "Resources"
+  lead: "We have developed some useful research tools and career development contents."
+  image: "assets/images/magma-ocean-gogh-style-rising-magma.png"
+  image_alt: "Stylized magma ocean artwork"
+
+software:
+  lead: "These software packages were developed for handling and analyzing large datasets from high-pressure experiments and are free for non-commercial use."
+  github_home: "https://github.com/SHDShim"
+  items:
+    - title: "PeakPo"
+      description: "Data-analysis environment for peak identification, peak fitting, and unit-cell refinement with 1D and 2D powder diffraction data, designed for quick navigation through large synchrotron datasets."
+      links:
+        - label: "App"
+          url: "https://drive.google.com/drive/folders/0B0kkQLbYpQDYfnlZZ09wcXltTjhRUDMydkx4R3o4TTUxcXlsTHJHOGlsNXo1ZkJUZ2JlWFk?resourcekey=0-Y-yblW6lsAIfbyA8qKrUmQ&usp=sharing"
+        - label: "Python code"
+          url: "https://github.com/SHDShim/peakpo-v7"
+        - label: "Manual"
+          url: "https://github.com/SHDShim/PeakPo/wiki"
+        - label: "Installation"
+          url: "https://github.com/SHDShim/PeakPo/wiki/Quick-Install"
+        - label: "Jupyter notebooks"
+          url: "https://github.com/SHDShim/PeakPo/tree/master/jnb-tools"
+    - title: "RamPo"
+      description: "Desktop application for processing Raman spectroscopy data, adapted from PeakPo and refocused for high-pressure Raman experiments."
+      links:
+        - label: "GitHub repository"
+          url: "https://github.com/SHDShim/RamPo"
+    - title: "Pytheos"
+      description: "Flexible tools for pressure-scale calculations, pressure conversion, and fitting pressure-volume and pressure-volume-temperature datasets to a range of equations and combinations."
+      links:
+        - label: "GitHub repository"
+          url: "https://github.com/SHDShim/pytheos"
+        - label: "Documentation"
+          url: "https://shdshim.github.io/pytheos-docs/"
+        - label: "Jupyter notebooks"
+          url: "https://github.com/SHDShim/pytheos/tree/master/examples"
+    - title: "Dioptas-Batch-GUI"
+      description: "Standalone GUI for automated batch processing of X-ray diffraction image files using Dioptas."
+      links:
+        - label: "GitHub repository"
+          url: "https://github.com/SHDShim/dioptase_batch_gui"
+    - title: "Calculator-for-H-in-FeHx"
+      description: "Notebook for calculating hydrogen content in FeHx alloys from alloy volume expansion using the DFT-based approach described in Piet et al. (2023, GRL)."
+      links:
+        - label: "Jupyter notebook"
+          url: "https://github.com/SHDShim/Calculator-for-H-in-FeHx"
+    - title: "UnitCellJ"
+      description: "A Jupyter notebook version of the original UnitCell app, providing a robust outlier-finding scheme for improved unit-cell fitting."
+      links:
+        - label: "Jupyter notebook"
+          url: "https://github.com/SHDShim/UnitCellJ"
+    - title: "BM-Spline"
+      description: "Demonstrates fast and accurate inverse Birch-Murnaghan equation fitting using a universal spline-function approach."
+      links:
+        - label: "Jupyter notebook"
+          url: "https://github.com/SHDShim/BM-spline"
+    - title: "JCPDSTools"
+      description: "Utilities to create JCPDS files from CIFs, edit existing JCPDS files, and check them for errors to support stable use with PeakPo and Dioptas."
+      links:
+        - label: "App"
+          url: "https://drive.google.com/drive/folders/1QRP499DYnYGKkv52Og37IoTalfUJA8uE?usp=sharing"
+        - label: "Python code"
+          url: "https://github.com/SHDShim/JCPDSTools"
+    - title: "PRuby"
+      description: "A lightweight utility for calculating pressure from ruby fluorescence peak positions, designed to respond quickly and run easily from portable drives."
+      links:
+        - label: "App"
+          url: "https://drive.google.com/open?id=0B0kkQLbYpQDYfjBGT21uMkx5cU1JMHJIUUhGR1FkdDVUdzFYVUdKR0Zya2NRcFYtUmRVUGM"
+
+gists:
+  lead: "Notes, coding references, workflows, and smaller technical documents are also available through GitHub Gists."
+  links:
+    - label: "Browse gist documents"
+      url: "https://gist.github.com/search?q=user%3Ashdshim+"
+    - label: "GitHub Gist profile"
+      url: "https://gist.github.com/shdshim"
+
+tutorials:
+  items:
+    - title: "Overleaf"
+      links:
+        - label: "Registration/Template/Editor"
+          url: "https://mediaplus.asu.edu/embedded?id=d727034f-c109-46c1-a073-9ccf83bdc88a&isPrivate=&siteId=61e0606e-415d-4001-8206-ffde48430c64"
+        - label: "LaTeX basics"
+          url: "https://mediaplus.asu.edu/embedded?id=8a27923d-e8b3-49fb-8acf-7540f4e27534&isPrivate=&siteId=61e0606e-415d-4001-8206-ffde48430c64"
+        - label: "Equations and Reactions"
+          url: "https://mediaplus.asu.edu/embedded?id=f8f1b88b-bb51-46a7-bd6a-eae1a2b493c6&isPrivate=&siteId=61e0606e-415d-4001-8206-ffde48430c64"
+        - label: "Tables and Figures"
+          url: "https://mediaplus.asu.edu/embedded?id=eb2f82bf-58da-48f4-96c7-6537856b1c3f&isPrivate=&siteId=61e0606e-415d-4001-8206-ffde48430c64"
+        - label: "Citations and References"
+          url: "https://mediaplus.asu.edu/embedded?id=3e5b4e87-6105-454d-b93b-5bffe86cc0b4&isPrivate=&siteId=61e0606e-415d-4001-8206-ffde48430c64"
+        - label: "Tracking, Revision, Commenting"
+          url: "https://mediaplus.asu.edu/embedded?id=7877cf77-4572-40d7-b749-5ce9154a62f5&isPrivate=&siteId=61e0606e-415d-4001-8206-ffde48430c64"
+        - label: "Prepare for arXiv submission"
+          url: "https://mediaplus.asu.edu/embedded?id=ef269816-ea74-45c9-b886-2addc8330c67&isPrivate=&siteId=61e0606e-415d-4001-8206-ffde48430c64"
+    - title: "Zotero"
+      links:
+        - label: "Tutorials on Zotero-Obsidian Integration setup"
+          url: "https://gist.github.com/SHDShim/4bf425a6e3327f3e8852cf975abc6cb6"
+    - title: "PeakPo"
+      text: "Coming soon."
+
+members_only:
+  lead: "These links are for Shim Lab members only. You need ASU credentials to log in and view the contents."
+  cards:
+    - title: "EDU accounts"
+      text: "Overleaf (through ASU), Google (through ASU), Dropbox (through ASU), Evernote, Zotero, Zenodo, and GitHub."
+    - title: "Jupyter notebooks"
+      text: "Gallery of mineral-physics data-analysis notebooks and figures from recent Shim Lab papers."
+      links:
+        - label: "Jupyter notebook gallery"
+          url: "https://www.dropbox.com/sh/1k0dzl945r4lbq2/AABzbktPMdfRyP7Q_2jFu9yna?dl=0"
+    - title: "Data log"
+      text: "Synchrotron data folder for group data is coming soon."
+      links:
+        - label: "Multi-anvil press log"
+          url: "https://docs.google.com/spreadsheets/d/1-e5EaXRPN6JT8DRvXMjmwSuTpGPA5oMCPAI27lpptfk/edit?usp=sharing"
+        - label: "Hydrogen loading log"
+          url: "https://docs.google.com/spreadsheets/d/1YlRR86vO8ZIIjCrBe_mfZBBQKFwpbqKBV2Xhill74qo/edit?usp=sharing"
+    - title: "Slack"
+      links:
+        - label: "Shim group Slack workspace"
+          url: "http://dan-shim-lab.slack.com"
+    - title: "Calendar"
+      links:
+        - label: "Group calendar"
+          url: "https://calendar.google.com/calendar?cid=b21ja2pwMHNiaDBjczNkbTNrc2FtazVoamdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+    - title: "Documents"
+      links:
+        - label: "Shim group policy"
+          url: "https://drive.google.com/drive/folders/1n652sGciWkbdqaNqDeE6OVVLwKQ3BL5q?usp=sharing"
+        - label: "Career development"
+          url: "https://drive.google.com/drive/folders/157iS0K9sny_f82F_iXAXkDFoeBKgNpz4?usp=sharing"
+        - label: "Writing help"
+          url: "https://drive.google.com/drive/folders/1qzehMBw7JrovQ5Cp2r5wmT3z9lBbn5vY?usp=sharing"
+        - label: "DAC operation manual"
+          url: "https://drive.google.com/drive/folders/0B0U0b8YVLTdwUzhoblVRMG50LWs?usp=sharing"
+        - label: "Manuals for Shim Lab instruments"
+          url: "https://drive.google.com/drive/folders/0B0U0b8YVLTdwRVZfY2p1QnFiaWs?usp=sharing"
+        - label: "Help for data analysis"
+          url: "https://drive.google.com/drive/folders/1WYOeahcFXnVAEBTpfovKGmuZpn2fcxll?usp=sharing"
+        - label: "Hydrogen loading manuals"
+          url: "https://drive.google.com/drive/folders/1wtg0OY9agyQu_J8RdPbdIgaKCciGkJJZ?usp=sharing"
+        - label: "JCPDS files"
+          url: "https://drive.google.com/drive/folders/1-fTzrcZ-4xjHKWSYjqYartj6wVgi2PvB?usp=sharing"
+    - title: "Policies"
+      links:
+        - label: "NSF data policy"
+          url: "https://www.nsf.gov/geo/geo-data-policies/index.jsp"
+        - label: "NASA data policy"
+          url: "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy"
+
+gallery:
+  items:
+    - title: "Images"
+      iframe_src: "https://drive.google.com/embeddedfolderview?id=0B0kkQLbYpQDYfm9DczhPTjhndmhoNG9qS3NiNjFfbm9kSEJxVW9RSy0yczNkTmRYSkxSamc#grid"
+      iframe_title: "Dan Shim Lab image resources"
+      open_link:
+        label: "Open image gallery"
+        url: "https://drive.google.com/drive/u/1/folders/0B0kkQLbYpQDYfm9DczhPTjhndmhoNG9qS3NiNjFfbm9kSEJxVW9RSy0yczNkTmRYSkxSamc?resourcekey=0-Mb73r58akPkLypDWGrUq7g"
+    - title: "Animations"
+      iframe_src: "https://drive.google.com/embeddedfolderview?id=0B0kkQLbYpQDYfkk4ekdkc0RCRmRaN3FZQzNWQzdkTDZIdWdPTFQ4dXBnMndweUNEWHdRSlU#grid"
+      iframe_title: "Dan Shim Lab animations"
+      open_link:
+        label: "Open animation gallery"
+        url: "https://drive.google.com/drive/u/1/folders/0B0kkQLbYpQDYfkk4ekdkc0RCRmRaN3FZQzNWQzdkTDZIdWdPTFQ4dXBnMndweUNEWHdRSlU?resourcekey=0-bEEDZ6oJlGghGuiSGR3BIQ"
+
+links:
+  resources_links:
+    - label: "Resources overview"
+      url: "resources.html"
+    - label: "GitHub homepage"
+      url: "https://github.com/SHDShim"
+    - label: "GitHub Gist profile"
+      url: "https://gist.github.com/shdshim"
+    - label: "Image gallery"
+      url: "https://drive.google.com/drive/u/1/folders/0B0kkQLbYpQDYfm9DczhPTjhndmhoNG9qS3NiNjFfbm9kSEJxVW9RSy0yczNkTmRYSkxSamc?resourcekey=0-Mb73r58akPkLypDWGrUq7g"
+    - label: "Animation gallery"
+      url: "https://drive.google.com/drive/u/1/folders/0B0kkQLbYpQDYfkk4ekdkc0RCRmRaN3FZQzNWQzdkTDZIdWdPTFQ4dXBnMndweUNEWHdRSlU?resourcekey=0-bEEDZ6oJlGghGuiSGR3BIQ"
