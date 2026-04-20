@@ -7,14 +7,19 @@ hero:
 news:
   latest:
   - date: '2026.04'
+    text: Our undergraduate researcher Ava Campbell won an NSF Graduate Research Fellowship. Congratulations to Ava!
+    source_label: NSF GRFP
+    source_url: https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList
+  - date: '2026.04'
     text: Shim has been selected as a Guggenheim Fellow in Astronomy and Astrophysics.
     source_label: Guggenheim Foundation
     source_url: https://www.gf.org/stories/announcing-the-2026-guggenheim-fellows
-  - date: '2025.11'
-    text: Alien worlds may be able to make their own water.
-    source_label: Science
-    source_url: https://www.science.org/content/article/alien-worlds-may-be-able-make-their-own-water?utm_campaign=Science&utm_medium=ownedSocial&utm_source=facebook&fbclid=IwZnRzaANw_flleHRuA2FlbQIxMQABHvD91r0BW4xpEZeln_VG1ArFZGq_XuID5stn2dNRnM-NOWi4Nka7gNL9pysh_aem_SPg2DZd-o_1yAKieimNJiQ
   earlier:
+  - year: '2025'
+    text: Alien worlds may be able to make their own water.
+    links:
+    - label: Science
+      url: https://www.science.org/content/article/alien-worlds-may-be-able-make-their-own-water?utm_campaign=Science&utm_medium=ownedSocial&utm_source=facebook&fbclid=IwZnRzaANw_flleHRuA2FlbQIxMQABHvD91r0BW4xpEZeln_VG1ArFZGq_XuID5stn2dNRnM-NOWi4Nka7gNL9pysh_aem_SPg2DZd-o_1yAKieimNJiQ
   - year: '2023'
     text: ASU researchers discover new mineralogy of the deep Earth.
     links:
