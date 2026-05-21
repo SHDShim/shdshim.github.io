@@ -1,0 +1,13 @@
+# Manual website publication overrides.
+#
+# Keep this file small. Put Zotero metadata in Zotero, and use this file only
+# for website-specific display choices, matching aliases, or explicit excludes.
+
+exclude_citation_keys: []
+
+include_unmatched_current_articles: true
+reuse_existing_html_by_doi: true
+
+doi_aliases: {}
+
+notes: {}

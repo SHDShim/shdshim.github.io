@@ -7,3 +7,7 @@ _site/
 .bundle/
 vendor/bundle/
 
+knowledge/
+__pycache__/
+*.pyc
+AGENTS.md

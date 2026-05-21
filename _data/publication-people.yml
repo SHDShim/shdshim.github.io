@@ -1,0 +1,14 @@
+# Publication-specific name rendering.
+#
+# This file is used by scripts/generate_publications.py when it needs to render
+# Zotero authors that do not already have a preserved website HTML citation.
+
+canonical_names:
+  "Shim, Sang-Heon": "S.-H. Shim"
+  "Shim, Sang‐Heon": "S.-H. Shim"
+  "Shim, S.-H.": "S.-H. Shim"
+  "Shim, S. H.": "S.-H. Shim"
+  "Shim, Dan": "S.-H. Shim"
+
+highlight_names:
+  - "S.-H. Shim"
