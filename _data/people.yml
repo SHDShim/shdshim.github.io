@@ -11,12 +11,16 @@ current_members:
     role: "Postdoc researcher"
   - name: "Alem Tukic"
     role: "Ph.D. student"
-  - name: "Ava Campbell"
-    role: "Undergraduate researcher"
   - name: "Kassandra Amezcua"
+    role: "Undergraduate researcher"
+  - name: "Aidan Ortega"
     role: "Undergraduate researcher"
 
 alumni:
+  - name: "Ava Campbell"
+    years: "2024-2026"
+    role: "Undergraduate student"
+    current: "Now a Ph.D. student at Stanford University."
   - name: "Sibo Chen"
     years: "2024-2025"
     role: "Postdoctoral researcher"
