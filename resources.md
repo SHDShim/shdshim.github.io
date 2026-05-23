@@ -30,7 +30,7 @@ permalink: /resources.html
     <summary class="foldable-summary"><h2>Software</h2></summary>
     <div class="foldable-body">
       <p class="lead">{{ site.data.resources.software.lead }}</p>
-      <div class="mini-links"><a href="{{ site.data.resources.software.github_home }}" target="_blank" rel="noreferrer">GitHub homepage</a></div>
+      <div class="mini-links software-home-link"><a href="{{ site.data.resources.software.github_home }}" target="_blank" rel="noreferrer">GitHub homepage</a></div>
       <div class="grid three-up">
         {% for item in site.data.resources.software.items %}
         <details class="card foldable">

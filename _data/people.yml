@@ -5,16 +5,22 @@ hero:
 current_members:
   - name: "Taehyun Kim"
     role: "Postdoctoral researcher"
+    homepage_url: "https://search.asu.edu/profile/3175291"
   - name: "Allison Pease"
     role: "Postdoctoral researcher"
+    homepage_url: "https://allisonpease.com"
   - name: "Xuehui Wei"
     role: "Postdoc researcher"
+    homepage_url: "https://xwei.openraman.science"
   - name: "Alem Tukic"
     role: "Ph.D. student"
+    homepage_url: "https://www.linkedin.com/in/alem-tukic-a1a091228"
   - name: "Kassandra Amezcua"
     role: "Undergraduate researcher"
+    homepage_url: "https://search.asu.edu/profile/4957026"
   - name: "Aidan Ortega"
     role: "Undergraduate researcher"
+    homepage_url: "https://www.linkedin.com/in/aidanortega05"
 
 alumni:
   - name: "Ava Campbell"

@@ -473,6 +473,14 @@ body:not(.home-page) .lead {
   max-width: none;
 }
 
+.software-home-link {
+  padding-top: 13px;
+}
+
+.software-home-link + .grid {
+  margin-top: 32px;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;

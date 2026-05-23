@@ -1,3 +1,8 @@
+---
+name: add-news-website
+description: Add a new research news item to this Jekyll website by updating _data/research.yml with scripts/add_research_news.rb while keeping homepage and research page news synchronized.
+---
+
 # Add Research News
 
 ## Purpose
@@ -18,8 +23,12 @@ Add a new research news item in one step while keeping home and research pages s
 - `source_url` full link
 
 ## Command
-```bash
-ruby scripts/add_research_news.rb \
+Run from the repository root using the project Ruby.
+
+```zsh
+eval "$(rbenv init - zsh)"
+rbenv local 3.2.4
+rbenv exec ruby scripts/add_research_news.rb \
   --date "2026.04" \
   --text "Shim has been selected as a Guggenheim Fellow in Astronomy and Astrophysics." \
   --source-label "Guggenheim Foundation" \
@@ -27,8 +36,8 @@ ruby scripts/add_research_news.rb \
 ```
 
 ## Verification
-```bash
-ruby -ryaml -e 'YAML.load_file("_data/research.yml"); puts "research.yml: OK"'
+```zsh
+rbenv exec ruby -ryaml -e 'YAML.load_file("_data/research.yml"); puts "research.yml: OK"'
 rg -n "news:|latest:|earlier:|Guggenheim|Science" _data/research.yml
 ```
 

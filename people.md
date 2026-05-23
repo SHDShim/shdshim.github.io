@@ -33,7 +33,13 @@ permalink: /people.html
       <div class="grid three-up">
         {% for person in site.data.people.current_members %}
         <article class="card member-card">
-          <h3>{{ person.name }}</h3>
+          <h3>
+            {% if person.homepage_url %}
+            <a class="text-link" href="{{ person.homepage_url }}" target="_blank" rel="noreferrer">{{ person.name }}</a>
+            {% else %}
+            {{ person.name }}
+            {% endif %}
+          </h3>
           <p>{{ person.role }}</p>
         </article>
         {% endfor %}
