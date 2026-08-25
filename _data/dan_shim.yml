@@ -11,22 +11,22 @@ overview_sections:
   - title: "Teaching and mentoring"
     text: "I create educational content using an open-source computational framework and large language model productivity tools. I am passionate about teaching data analysis, computation, and knowledge development, and I am deeply interested in connecting research and education."
     link:
-      label: "Open teaching page"
-      url: "dan-shim-teaching.html"
+      label: "Open teaching section"
+      url: "dan-shim.html#teaching"
   - title: "Affiliations"
     html: "<a class=\"text-link\" href=\"https://sese.asu.edu/\">School of Earth and Space Exploration</a>, <a class=\"text-link\" href=\"https://motu.asu.edu/\">Materials of the Universe</a>, and <a class=\"text-link\" href=\"https://force.asu.edu/\">FORCE at ASU</a>."
 
 overview_cards:
-  - title: "CV"
+  - title: "Professional Background"
     text: "Appointments, affiliations, major milestones, and professional background."
     link:
-      label: "Open CV page"
-      url: "dan-shim-cv.html"
+      label: "Open professional background section"
+      url: "dan-shim.html#professional-background"
   - title: "Talks"
     text: "Invited talks, featured appearances, media, and public research communication."
     link:
-      label: "Open talks page"
-      url: "dan-shim-talks.html"
+      label: "Open talks section"
+      url: "dan-shim.html#talks"
 
 cv:
   positions:

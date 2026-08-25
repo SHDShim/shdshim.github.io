@@ -53,15 +53,13 @@ permalink: /people.html
     <summary class="foldable-summary">
       <h2>Alumni</h2>
     </summary>
-    <div class="foldable-body subpage-stack">
+    <ul class="foldable-body list-plain">
       {% for person in site.data.people.alumni %}
-      <article class="subpage-item">
-        <p>
-          {{ person.name }} ({{ person.years }}) {{ person.role }}.
-          {% if person.current %} {{ person.current }}{% endif %}
-        </p>
-      </article>
+      <li>
+        {{ person.name }} ({{ person.years }}) {{ person.role }}.
+        {% if person.current %} {{ person.current }}{% endif %}
+      </li>
       {% endfor %}
-    </div>
+    </ul>
   </details>
 </section>

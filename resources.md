@@ -6,7 +6,7 @@ body_class: resources-page
 nav_key: resources
 permalink: /resources.html
 ---
-<section class="page-hero profile-hero resources-hero">
+<section class="page-hero profile-hero text-only-hero">
   <div class="profile-hero-copy">
     <h1>{{ site.data.resources.hero.title }}</h1>
     <p class="lead">{{ site.data.resources.hero.lead }}</p>
@@ -19,9 +19,6 @@ permalink: /resources.html
       <a href="#resources-gallery">Gallery</a>
       <a href="#resources-links">Links</a>
     </nav>
-  </div>
-  <div class="profile-hero-photo resources-hero-photo">
-    <img class="hero-title-image resources-hero-image" src="{{ site.data.resources.hero.image }}" alt="{{ site.data.resources.hero.image_alt }}">
   </div>
 </section>
 

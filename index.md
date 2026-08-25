@@ -8,13 +8,17 @@ permalink: /index.html
 <main>
 <section class="home-hero">
   <div class="home-hero-image" aria-hidden="true"></div>
-  <nav class="home-nav" aria-label="Primary">
-    <a class="is-active" href="index.html">Home</a>
-    <a href="dan-shim.html">Dan Shim</a>
-    <a href="people.html">People</a>
-    <a href="research.html">Research</a>
-    <a href="resources.html">Resources</a>
-  </nav>
+  <header class="home-header">
+    <a class="home-brand" href="index.html">Dan Shim Lab</a>
+    <nav class="home-nav" aria-label="Primary">
+      <a class="is-active" href="index.html">Home</a>
+      <a href="dan-shim.html">Dan Shim</a>
+      <a href="people.html">People</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </header>
   <div class="home-hero-overlay">
     <div class="home-hero-copy">
       <h1>{{ site.data.home.hero.title }}</h1>
@@ -24,8 +28,10 @@ permalink: /index.html
   </div>
 </section>
 
-<section id="intro" class="section-block home-intro">
-  <div class="home-copy">
+<section id="intro" class="home-intro">
+  <div class="home-intro-grid">
+    <h2>Understanding materials in extreme conditions across planets.</h2>
+    <div class="home-copy">
     {% for paragraph in site.data.home.intro.paragraphs %}
     <p>{{ paragraph }}</p>
     {% endfor %}
@@ -44,21 +50,21 @@ permalink: /index.html
     <p>
       <a href="{{ site.data.home.facility.url }}">{{ site.data.home.facility.text }}</a>.
     </p>
+    </div>
+  </div>
 
-    <details class="card foldable" open>
-      <summary class="foldable-summary">
-        <h3>Our research in news</h3>
-      </summary>
-      <div class="foldable-body">
-        {% for item in site.data.research.news.latest limit: 2 %}
-        <p class="inline-news-item">
-          <span class="time-label">{{ item.date }}</span>
-          <span>{{ item.text }}</span>
-          <a class="text-link" href="{{ item.source_url }}" target="_blank" rel="noreferrer">{{ item.source_label }}</a>
-        </p>
-        {% endfor %}
-      </div>
-    </details>
+  <div class="home-news">
+    <h2>Our research in news</h2>
+    <div class="home-news-list">
+      {% for item in site.data.research.news.latest limit: 2 %}
+      <article class="home-news-item">
+        <p class="time-label">{{ item.date }}</p>
+        <p>{{ item.text }}</p>
+        <a class="text-link" href="{{ item.source_url }}" target="_blank" rel="noreferrer">{{ item.source_label }}</a>
+      </article>
+      {% endfor %}
+    </div>
+    <a class="text-link home-news-more" href="research.html#research-news">View all research news</a>
   </div>
 </section>
 </main>

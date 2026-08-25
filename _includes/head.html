@@ -5,12 +5,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
-  href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
   rel="stylesheet"
 >
 <link rel="icon" href="{{ '/assets/favicon-planet.svg' | relative_url }}" type="image/svg+xml">
-{% assign stylesheet_version = '20260329-space-resources-spacing' %}
+{% assign stylesheet_version = '20260825-publication-sections' %}
 {% if page.nav_key == 'home' %}
-  {% assign stylesheet_version = '20260329-space' %}
+  {% assign stylesheet_version = '20260825-home-heading-scale' %}
 {% endif %}
 <link rel="stylesheet" href="{{ '/styles.css?v=' | append: stylesheet_version | relative_url }}">

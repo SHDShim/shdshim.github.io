@@ -12,7 +12,7 @@ Markdown front matter and shared layouts.
 - `_config.yml`: Jekyll site configuration
 - `_layouts/`: shared page layouts (`default.html`, `home.html`)
 - `_includes/`: reusable head and primary navigation includes
-- `index.md`, `dan-shim.md`, `dan-shim-cv.md`, `dan-shim-teaching.md`, `dan-shim-talks.md`, `people.md`, `research.md`, `publications.md`, `resources.md`: page templates (Liquid + layout structure)
+- `index.md`, `dan-shim.md`, `people.md`, `research.md`, `publications.md`, `resources.md`: page templates (Liquid + layout structure)
 - `_data/home.yml`: homepage text/content data
 - `_data/dan_shim.yml`: PI overview/CV/teaching/talks content data
 - `_data/people.yml`: people page content data

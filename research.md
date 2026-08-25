@@ -48,7 +48,7 @@ permalink: /research.html
         <summary class="foldable-summary">
           <h3>Earlier news</h3>
         </summary>
-        <div class="foldable-body news-stack">
+        <div class="foldable-body news-stack earlier-news-list">
           {% for item in site.data.research.news.earlier %}
           <article class="subpage-item">
             <h3>{{ item.year }}</h3>

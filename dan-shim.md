@@ -5,51 +5,100 @@ description: Section landing page for S.-H. Dan Shim.
 nav_key: dan-shim
 permalink: /dan-shim.html
 ---
-<section class="page-hero profile-hero">
-  <div class="profile-hero-copy">
-    <h1>{{ site.data.dan_shim.hero.name_html }}</h1>
-    <p class="lead">{{ site.data.dan_shim.hero.lead }}</p>
-    <nav class="section-nav" aria-label="Dan Shim section">
-      <a class="is-active" href="dan-shim.html">Overview</a>
-      <a href="dan-shim-cv.html">CV</a>
-      <a href="dan-shim-teaching.html">Teaching</a>
-      <a href="dan-shim-talks.html">Talks</a>
-    </nav>
-  </div>
-  <div class="profile-hero-photo">
-    <div class="profile-photo-ring">
-      <img src="{{ site.data.dan_shim.hero.image_url }}" alt="{{ site.data.dan_shim.hero.image_alt }}">
+{% include dan-shim-hero.html %}
+
+{% assign research_profile = site.data.dan_shim.overview_sections | where: "title", "Research profile" | first %}
+{% assign teaching_intro = site.data.dan_shim.overview_sections | where: "title", "Teaching and mentoring" | first %}
+{% assign affiliations = site.data.dan_shim.overview_sections | where: "title", "Affiliations" | first %}
+
+<section id="overview" class="section-block">
+  <details class="card card-wide foldable" open>
+    <summary class="foldable-summary">
+      <h2>Overview</h2>
+    </summary>
+    <div class="foldable-body">
+      <h3>{{ research_profile.title }}</h3>
+      <p>{{ research_profile.text }}</p>
+      <h3>{{ affiliations.title }}</h3>
+      <p>{{ affiliations.html }}</p>
     </div>
-  </div>
+  </details>
 </section>
 
-<section class="section-block">
-  <div class="section-index">
-    {% for section in site.data.dan_shim.overview_sections %}
-    <details class="section-index-item foldable"{% if section.open %} open{% endif %}>
-      <summary class="foldable-summary">
-        <h3>{{ section.title }}</h3>
-      </summary>
-      <div class="foldable-body">
-        {% if section.text %}<p>{{ section.text }}</p>{% endif %}
-        {% if section.html %}<p>{{ section.html }}</p>{% endif %}
-        {% if section.link %}<a class="text-link" href="{{ section.link.url }}">{{ section.link.label }}</a>{% endif %}
+<section id="professional-background" class="section-block">
+  <details class="card card-wide foldable">
+    <summary class="foldable-summary">
+      <h2>Professional Background</h2>
+    </summary>
+    <div class="foldable-body">
+      <div class="topic-cluster">
+        <details class="subpage-item foldable" open>
+          <summary class="foldable-summary"><h3>Positions held</h3></summary>
+          <ul class="foldable-body list-plain">
+            {% for item in site.data.dan_shim.cv.positions %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </details>
+        <details class="subpage-item foldable">
+          <summary class="foldable-summary"><h3>Education</h3></summary>
+          <ul class="foldable-body list-plain">
+            {% for item in site.data.dan_shim.cv.education %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </details>
+        <details class="subpage-item foldable">
+          <summary class="foldable-summary"><h3>Contact</h3></summary>
+          <div class="foldable-body contact-block">
+            {% for line in site.data.dan_shim.cv.contact %}<p>{{ line }}</p>{% endfor %}
+          </div>
+        </details>
+        <details class="subpage-item foldable">
+          <summary class="foldable-summary"><h3>Personal info</h3></summary>
+          <ul class="foldable-body list-plain">
+            {% for link in site.data.dan_shim.cv.personal_links %}
+            <li><a class="text-link" href="{{ link.url }}"{% if link.url contains 'http' %} target="_blank" rel="noreferrer"{% endif %}>{{ link.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
       </div>
-    </details>
-    {% endfor %}
-  </div>
+    </div>
+  </details>
 </section>
 
-<section class="section-block">
-  <div class="grid two-up">
-    {% for card in site.data.dan_shim.overview_cards %}
-    <details class="card foldable">
-      <summary class="foldable-summary"><h3>{{ card.title }}</h3></summary>
-      <div class="foldable-body">
-        <p>{{ card.text }}</p>
-        <a class="text-link" href="{{ card.link.url }}">{{ card.link.label }}</a>
+<section id="teaching" class="section-block">
+  <details class="card card-wide foldable">
+    <summary class="foldable-summary">
+      <h2>Teaching</h2>
+    </summary>
+    <div class="foldable-body">
+      <p>{{ teaching_intro.text }}</p>
+      <div class="topic-cluster">
+        {% for topic in site.data.dan_shim.teaching.topics %}
+        <details class="subpage-item foldable">
+          <summary class="foldable-summary">
+            <h3>{{ topic.title }}</h3>
+          </summary>
+          <div class="foldable-body">
+            <p>{{ topic.text }}</p>
+          </div>
+        </details>
+        {% endfor %}
       </div>
-    </details>
-    {% endfor %}
-  </div>
+    </div>
+  </details>
+</section>
+
+<section id="talks" class="section-block">
+  <details class="card card-wide foldable">
+    <summary class="foldable-summary">
+      <h2>Talks</h2>
+    </summary>
+    <ul class="foldable-body list-plain">
+      {% for link in site.data.dan_shim.talks.links %}
+      <li><a class="text-link" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </details>
 </section>
