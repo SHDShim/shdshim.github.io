@@ -84,6 +84,8 @@ teaching:
 
 talks:
   links:
+    - label: "Livermore National Lab, High Energy Density Seminar"
+      url: "https://youtu.be/1lXhfD9SiBk?si=YKyE3g3vS-cQzMcV"
     - label: "GSECARS workshop talk"
       url: "https://youtu.be/HuWz38aRfU0"
     - label: "KITP Earth 2016 talk"
