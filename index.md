@@ -17,6 +17,7 @@ permalink: /index.html
       <a href="research.html">Research</a>
       <a href="publications.html">Publications</a>
       <a href="resources.html">Resources</a>
+      <a href="assets/pdfs/cv-shim.pdf" target="_blank" rel="noopener">CV (PDF)</a>
     </nav>
   </header>
   <div class="home-hero-overlay">

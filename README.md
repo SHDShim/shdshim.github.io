@@ -40,6 +40,26 @@ Markdown front matter and shared layouts.
 - `publications.md` reads from `_data/publications.yml`.
 - `resources.md` reads from `_data/resources.yml`.
 
+### CV PDF
+
+The canonical CV is built in the separate LaTeX repository at:
+
+```text
+/Users/danshim/Git-Workspace/documents-latex/CV/build/cv-shim.pdf
+```
+
+Synchronize it to the website's stable public URL after rebuilding the CV:
+
+```zsh
+python scripts/update_cv.py
+```
+
+To detect an outdated website copy without changing it, run:
+
+```zsh
+python scripts/update_cv.py --check
+```
+
 ## Preserved old site
 
 The earlier site histories were preserved locally before the reset:
